@@ -1,0 +1,21 @@
+uuid: 3c8c249f-481a-4961-bebc-9f76ec61d890
+langcode: en
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - storledentheme
+
+id: storledentheme_help
+theme: storledentheme
+region: content
+weight: -30
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  provider: help
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,70 @@
+uuid: 8c87296d-3aa9-4b8e-8443-98162793ae7a
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.storleden_footer
+    - field.field.block_content.storleden_footer.body
+    - field.field.block_content.storleden_footer.field_besok_oss
+    - field.field.block_content.storleden_footer.field_facebook_url
+    - field.field.block_content.storleden_footer.field_footer_logo
+    - field.field.block_content.storleden_footer.field_sag_hej
+    - field.field.block_content.storleden_footer.field_twitter_url
+    - image.style.thumbnail
+  module:
+    - image
+id: block_content.storleden_footer.default
+targetEntityType: block_content
+bundle: storleden_footer
+mode: default
+content:
+  field_besok_oss:
+    weight: 2
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_facebook_url:
+    weight: 26
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_footer_logo:
+    weight: 1
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_sag_hej:
+    weight: 3
+    settings:
+      rows: 5
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textarea
+    region: content
+  field_twitter_url:
+    weight: 27
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  info:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true

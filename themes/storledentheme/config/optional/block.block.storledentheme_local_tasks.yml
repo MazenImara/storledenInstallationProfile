@@ -1,0 +1,22 @@
+uuid: 29cea9a6-ccd8-4365-95b0-f989283cfb8d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: X9I1OB0W3WlWtrK-CNcg6hNWwa8wficanpH8pYnDZDE
+id: storledentheme_local_tasks
+theme: storledentheme
+region: content
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

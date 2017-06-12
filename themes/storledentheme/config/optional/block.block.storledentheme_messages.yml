@@ -1,0 +1,22 @@
+uuid: c6b14bb1-49e3-4459-8615-02bbc78fd0b5
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: KHQIJ7Vfl25lTjzIc7qIvnuistt-Mw2O0kG4jCofmkI
+id: storledentheme_messages
+theme: storledentheme
+region: highlighted
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,39 @@
+uuid: ebdae17e-396a-4b3e-ab77-4227b99301fe
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.references.body
+    - field.field.node.references.field_image
+    - image.style.thumbnail
+    - node.type.references
+  module:
+    - image
+id: node.references.default
+targetEntityType: node
+bundle: references
+mode: default
+content:
+  field_image:
+    type: image_image
+    weight: 1
+    region: content
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

@@ -1,0 +1,25 @@
+uuid: 23e7478b-2a85-4632-a0fd-b170c1c1e2db
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:storleden_footer:1039b522-fd6f-44eb-a4d5-e86cb6df22e6'
+  module:
+    - block_content
+  theme:
+    - storledentheme
+id: storledenfooter
+theme: storledentheme
+region: footer
+weight: 0
+provider: null
+plugin: 'block_content:1039b522-fd6f-44eb-a4d5-e86cb6df22e6'
+settings:
+  id: 'block_content:1039b522-fd6f-44eb-a4d5-e86cb6df22e6'
+  label: 'Storleden footer '
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,29 @@
+.link-button{
+
+	background: radial-gradient(circle, rgba(16, 162, 202, 0.55), rgba(11, 161, 202, 0.75), #09708c);
+	height:218px;
+	width: 100%;
+	color: white;
+	display:table;
+	text-align: center;
+
+	button{
+	    color: #333;
+	    border-radius: 30px;
+	    background-color: white;
+	    border: none;
+	    width: 157px;
+	    height: 46px;
+	    font-size: 18px;
+	}
+
+
+
+	.button-ingress{
+	    text-transform: uppercase;
+	    margin: 48px 0px 33px 0px;
+	    font-size: 28px;
+	}
+
+
+}

@@ -1,0 +1,84 @@
+.kontakt{
+
+
+.ingress{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+input.form-text , input.form-email ,input.form-text:focus{		
+	border:none;
+	border-bottom: 1px solid #ccc;
+	margin-right: 10%;
+	outline: none;
+}	
+
+	.submit-btn{
+		display: table;
+		margin: auto;
+		input{
+			background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+		    color: white;
+		    width: 100px;
+		    height: 41px;
+		    border-radius: 20px;
+		    border-color: #00c3ff;
+		}
+		input:hover{
+			background-image: linear-gradient(to bottom, #3199c9, #3199c9);
+        	border-color: #3199c9;
+        	transition:1s;   
+		}
+	}
+
+
+
+
+
+
+.checkboxes{
+	input[type=checkbox], input[type=radio] {
+
+	}
+
+	.form-checkboxes .form-item, .form-radios .form-item {
+	    margin-top: 0.4em;
+	    margin-bottom: 0.4em;
+	    display: inline-flex;
+	    margin-right: 50px;
+	}
+
+}
+
+
+}
+
+.har-finns-vi{
+	margin-top:100px;
+	text-align:center;
+	div{
+		margin-top: 20px;
+
+	}
+	.adress{
+		width: 137px;
+	    display: table;
+	    margin: auto;
+	}
+
+}
+
+
+.title{
+	display: table;
+	margin: auto;
+	hr{
+		
+	    margin-top: -13px;
+	    border-top: solid #0cf;
+	}
+}
+
+.jobba-hos-oss{
+	margin-top:100px;
+}

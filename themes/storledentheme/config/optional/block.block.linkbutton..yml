@@ -1,0 +1,23 @@
+uuid: 12e606fe-cd5f-4f56-b902-9683938a2ffe
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: linkbutton.
+theme: storledentheme
+region: front_page
+weight: -1
+provider: null
+plugin: linkbutton
+settings:
+  id: linkbutton
+  label: 'Link button.'
+  provider: storleden_module
+  label_display: '0'
+  send_Type: get
+  button_URL: /storleden/kontakt
+  button_Name: 'Kontakta oss'
+visibility: {  }

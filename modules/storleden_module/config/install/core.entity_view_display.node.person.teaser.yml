@@ -1,0 +1,38 @@
+uuid: a6996058-8b73-4c25-9a5a-6b2cbbe639e0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.person.body
+    - field.field.node.person.field_epost
+    - field.field.node.person.field_image
+    - field.field.node.person.field_telefon
+    - field.field.node.person.field_yrke
+    - node.type.person
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: Oy8Qg8MCVzlhcxVPOUSjXmIsgafwcJXm54jDrIPYMPA
+id: node.person.teaser
+targetEntityType: node
+bundle: person
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_epost: true
+  field_image: true
+  field_telefon: true
+  field_yrke: true

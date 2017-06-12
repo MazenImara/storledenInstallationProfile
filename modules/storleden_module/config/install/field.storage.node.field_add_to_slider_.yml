@@ -1,0 +1,18 @@
+uuid: 412d8b86-aefb-40ec-92d1-0bd6dc7a01ee
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_add_to_slider_
+field_name: field_add_to_slider_
+entity_type: node
+type: boolean
+settings: {  }
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

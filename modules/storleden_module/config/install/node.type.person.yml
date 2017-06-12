@@ -1,0 +1,22 @@
+uuid: f5ba40dc-091c-41a4-be38-ebc68fe2c438
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - storleden_module
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: Bc7efSetE9QFi2Cahkj2pWGOyK3EQp0AhJiuWJmoO1M
+name: Person
+type: person
+description: 'En person, används av en plugin för att sammanställa alla personer i en lista.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

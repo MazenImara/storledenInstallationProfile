@@ -1,0 +1,67 @@
+{%
+  set classes = [
+    'node',
+    'node--type-' ~ node.bundle|clean_class,
+    node.isPromoted() ? 'node--promoted',
+    node.isSticky() ? 'node--sticky',
+    not node.isPublished() ? 'node--unpublished',
+    view_mode ? 'node--view-mode-' ~ view_mode|clean_class,
+    'clearfix',
+  ]
+%}
+{{ attach_library('classy/node') }}
+<article{{ attributes.addClass(classes) }}>
+  <header>
+    {{ title_prefix }}
+    {% if not page %}
+      <h2{{ title_attributes.addClass('node__title') }}>
+        <a href="{{ url }}" rel="bookmark">{{ label }}</a>
+      </h2>
+    {% endif %}
+    {{ title_suffix }}
+    {% if display_submitted %}
+      <div class="node__meta">
+        {{ author_picture }}
+        <span{{ author_attributes }}>
+          {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+        </span>
+        {{ metadata }}
+      </div>
+    {% endif %}
+  </header>
+  <div{{ content_attributes.addClass('node__content', 'clearfix', 'kontakt-page') }}>
+
+    <div class="title">
+      <h1>{{ content.field_title_2 }}</h1>
+      <hr>
+    </div>    
+    <div>{{ content.field_ingress }}</div>
+    <div>{{ content.field_map }}</div>
+
+    <div class="title">
+      <h1>{{ content.field_title_3 }}</h1>
+      <hr>
+    </div>
+    {% if content.field_column_2|render %}
+      {% if content.field_column_1|render %}
+        <div class="row">
+            <div class="col-sm-6">{{ content.field_column_1 }}</div>
+            <div class="col-sm-6">{{ content.field_column_2 }}</div>
+        </div> 
+      {% else %}
+        {{ content.field_column_2 }}
+      {% endif %}
+    {% else %}
+      {{ content.field_column_1 }}
+    {% endif %}
+
+
+
+    
+    
+
+
+
+
+  </div>
+</article>

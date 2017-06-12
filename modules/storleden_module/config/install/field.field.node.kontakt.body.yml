@@ -1,0 +1,22 @@
+uuid: af111ccc-7073-4922-9cdd-fe0bdfe7bbdc
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.kontakt
+  module:
+    - text
+id: node.kontakt.body
+field_name: body
+entity_type: node
+bundle: kontakt
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

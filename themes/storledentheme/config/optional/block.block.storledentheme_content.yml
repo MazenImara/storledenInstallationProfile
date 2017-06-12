@@ -1,0 +1,22 @@
+uuid: fc985816-0da2-40a2-969e-0e8f63ce04f2
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: 9EoWV2Lot6FVSr50t4hoKgiz1LIXYWNG-IIPYsWxBqo
+id: storledentheme_content
+theme: storledentheme
+region: content
+weight: 3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

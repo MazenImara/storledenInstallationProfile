@@ -1,0 +1,19 @@
+uuid: c7cabda0-31d1-423d-bc0d-fb26d6566042
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingress
+    - node.type.product
+id: node.product.field_ingress
+field_name: field_ingress
+entity_type: node
+bundle: product
+label: Ingress
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

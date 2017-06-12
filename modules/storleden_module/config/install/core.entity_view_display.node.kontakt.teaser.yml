@@ -1,0 +1,28 @@
+uuid: 02db4677-9481-4972-991d-eaf2165f693e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kontakt.body
+    - node.type.kontakt
+  module:
+    - text
+    - user
+id: node.kontakt.teaser
+targetEntityType: node
+bundle: kontakt
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

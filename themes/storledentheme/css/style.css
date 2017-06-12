@@ -1,0 +1,275 @@
+/* line 4, ../sass/partials/_header.scss */
+.user-logged-in header {
+  background-color: #343434;
+  position: relative;
+  z-index: 0;
+}
+
+/* line 16, ../sass/partials/_header.scss */
+header nav {
+  width: 100%;
+  margin-top: -19px;
+}
+/* line 20, ../sass/partials/_header.scss */
+header .meny-stang {
+  font-size: 178%;
+  float: right;
+  margin-top: 4%;
+}
+/* line 25, ../sass/partials/_header.scss */
+header .site-branding {
+  padding-top: 22px;
+  margin-left: 35px;
+}
+/* line 28, ../sass/partials/_header.scss */
+header .site-branding img {
+  width: 69%;
+  height: auto;
+  background-size: 100% auto;
+}
+/* line 35, ../sass/partials/_header.scss */
+header hr {
+  border-top: 1px solid #0cf;
+}
+/* line 39, ../sass/partials/_header.scss */
+header a {
+  display: block;
+  color: white;
+  font-family: raleway;
+  font-size: 24px;
+}
+/* line 48, ../sass/partials/_header.scss */
+header li ul a {
+  font-size: 20px;
+}
+/* line 53, ../sass/partials/_header.scss */
+header a:hover {
+  text-decoration: none;
+  color: #0cf;
+}
+/* line 60, ../sass/partials/_header.scss */
+header li .glyphicon-chevron-right {
+  font-size: 18px;
+  margin-right: 6px;
+}
+/* line 65, ../sass/partials/_header.scss */
+header .menu-item--expanded {
+  list-style-image: none;
+  list-style-type: none;
+}
+/* line 69, ../sass/partials/_header.scss */
+header .menu-item--expanded ul {
+  margin-left: 7px;
+  margin-bottom: 0px;
+}
+/* line 72, ../sass/partials/_header.scss */
+header .menu-item--expanded ul span {
+  display: none;
+}
+/* line 79, ../sass/partials/_header.scss */
+header .storledenAB img {
+  margin-top: 48px;
+}
+
+/* line 88, ../sass/partials/_header.scss */
+.front-header {
+  background-color: transparent;
+  z-index: 99;
+  position: fixed;
+  width: 100%;
+}
+
+/* line 95, ../sass/partials/_header.scss */
+.headerColor {
+  background-color: #343434;
+}
+
+/* line 99, ../sass/partials/_header.scss */
+.headerColorScroll {
+  background-color: #343434;
+}
+
+/* line 104, ../sass/partials/_header.scss */
+.flex-container-heder {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* line 119, ../sass/partials/_header.scss */
+.flex-item-header {
+  /* background: tomato; */
+  padding: 5px;
+  min-width: 142px;
+  width: 36%;
+  margin-top: 10px;
+}
+
+/* line 127, ../sass/partials/_header.scss */
+.flex-container-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* line 142, ../sass/partials/_header.scss */
+.flex-item-nav {
+  padding: 5px;
+  min-width: 142px;
+  width: 25%;
+  margin-top: 10px;
+  padding-bottom: 7%;
+}
+
+/* line 1, ../sass/partials/_node-page.scss */
+.block-page-title-block {
+  text-align: center;
+}
+
+/* line 6, ../sass/partials/_node-page.scss */
+.node__content {
+  padding: 0% 5% 0% 5%;
+}
+/* line 8, ../sass/partials/_node-page.scss */
+.node__content .field--name-field-ingress {
+  display: table;
+  margin: auto;
+  margin-bottom: 54px;
+  margin-top: -23px;
+  text-align: center;
+}
+/* line 15, ../sass/partials/_node-page.scss */
+.node__content .field--type-image {
+  width: 99%;
+}
+/* line 18, ../sass/partials/_node-page.scss */
+.node__content img {
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+  margin-bottom: 25px;
+}
+/* line 24, ../sass/partials/_node-page.scss */
+.node__content .field__label {
+  display: none;
+}
+
+/* line 30, ../sass/partials/_node-page.scss */
+.kontakt-for-test input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  margin-right: 10%;
+}
+
+/* line 38, ../sass/partials/_node-page.scss */
+.page-title {
+  font-size: 35px;
+  display: inline-table;
+}
+/* line 41, ../sass/partials/_node-page.scss */
+.page-title hr {
+  margin-top: 0px;
+  border-top: solid #0cf;
+}
+
+/* line 50, ../sass/partials/_node-page.scss */
+.node--type-tjanster img {
+  width: 25%;
+}
+
+/* line 56, ../sass/partials/_node-page.scss */
+.title {
+  display: table;
+  margin: 20px auto;
+}
+/* line 59, ../sass/partials/_node-page.scss */
+.title hr {
+  border-top: solid #0cf;
+}
+
+/* line 67, ../sass/partials/_node-page.scss */
+.kontakt-page div {
+  margin-top: 3px;
+}
+
+/* line 72, ../sass/partials/_node-page.scss */
+.top.glyphicon {
+  position: fixed;
+  color: #00c7fc;
+  margin-top: 41%;
+  z-index: 99999;
+  font-size: 40px;
+  right: 15px;
+}
+
+/* line 83, ../sass/partials/_node-page.scss */
+button:hover {
+  background-color: #34adce;
+  border-color: #34adce;
+  transition: 1s;
+}
+
+/* line 92, ../sass/partials/_node-page.scss */
+.node-ingress {
+  width: 50%;
+  display: table;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+/* line 2, ../sass/partials/_footer.scss */
+.storleden-footer img {
+  max-width: 88%;
+}
+/* line 5, ../sass/partials/_footer.scss */
+.storleden-footer .social {
+  text-align: center;
+}
+/* line 7, ../sass/partials/_footer.scss */
+.storleden-footer .social img {
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+/* line 17, ../sass/partials/_footer.scss */
+.region-footer {
+  background-color: #343434;
+  color: white;
+  font-size: 10px;
+}
+
+/* line 25, ../sass/partials/_footer.scss */
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+/* line 40, ../sass/partials/_footer.scss */
+.flex-item {
+  padding: 5px;
+  width: 150px;
+  margin-top: 10px;
+  height: 100px;
+}

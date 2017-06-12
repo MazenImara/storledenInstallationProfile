@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+    - system
+  theme:
+    - storledentheme
+id: allprojectsangularfilterblock
+theme: storledentheme
+region: content
+weight: -4
+provider: null
+plugin: allprojectsangularfilters
+settings:
+  id: allprojectsangularfilters
+  label: 'All Projects Angular Filter Block'
+  provider: storleden_module
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /allprojects
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,8 @@
+uuid: daccf1e1-a12e-45e2-8047-6bceb19f13c3
+langcode: en
+status: true
+dependencies: {  }
+id: storleden_footer
+label: 'Storleden footer'
+revision: 0
+description: 'Footer block for storleden website'

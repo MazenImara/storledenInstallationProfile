@@ -1,0 +1,166 @@
+
+.user-logged-in{
+
+	header{
+		background-color: #343434;
+		position: relative;
+		    z-index: 0;
+	}
+}
+
+
+
+header{
+
+	
+	nav{
+		width: 100%;
+		margin-top: -19px;
+	}
+	.meny-stang{
+		font-size: 178%;
+	    float: right;
+	    margin-top: 4%;
+	}
+	.site-branding{
+		padding-top: 22px;
+    	margin-left: 35px;
+		img {
+	     	width: 69%;
+	    	height: auto;
+	    	background-size: 100% auto ;
+		}
+	    
+	}
+	hr{
+		
+	    border-top: 1px solid #0cf;
+	}
+	a{
+		display: block;
+		color: white;
+		font-family: raleway;
+		font-size: 24px;
+			
+	}
+	li{
+		ul{
+			a{
+				font-size: 20px;
+			}
+		}
+	}
+	a:hover{
+		text-decoration: none;
+		color:#0cf;
+	}
+	
+
+	li{
+		.glyphicon-chevron-right{
+			font-size: 18px;
+    		margin-right: 6px;    			
+		}			
+	}
+	.menu-item--expanded{
+		list-style-image: none;
+		list-style-type: none;
+			    				
+		ul{
+			margin-left: 7px;
+			margin-bottom: 0px;
+			span{
+				display: none;
+			}
+		}
+	}
+
+	.storledenAB{
+		img{
+			margin-top: 48px;
+		}
+	}
+
+}
+
+
+
+.front-header{
+	background-color: transparent;
+	z-index: 99;
+	position: fixed;
+    width: 100%;	
+}
+
+.headerColor{
+	background-color: #343434;
+}
+
+.headerColorScroll{
+	background-color: #343434;
+}
+
+
+.flex-container-heder {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item-header {
+    /* background: tomato; */
+    padding: 5px;
+    min-width: 142px;
+    width: 36%;
+    margin-top: 10px;
+}
+
+.flex-container-nav {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item-nav {
+    //background: tomato; 
+    padding: 5px;
+    min-width: 142px;
+    width: 25%;
+    margin-top: 10px;
+    padding-bottom: 7%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

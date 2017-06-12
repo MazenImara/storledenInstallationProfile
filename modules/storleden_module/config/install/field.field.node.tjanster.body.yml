@@ -1,0 +1,22 @@
+uuid: eb826a07-1d46-4302-904d-e7f30e183543
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.tjanster
+  module:
+    - text
+id: node.tjanster.body
+field_name: body
+entity_type: node
+bundle: tjanster
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

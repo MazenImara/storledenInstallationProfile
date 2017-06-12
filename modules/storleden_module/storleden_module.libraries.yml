@@ -1,0 +1,8 @@
+storleden_lib:
+  version: 1.x
+  css:
+    layout:
+      css/storleden-module-style.css: {}
+  js:
+    js/bootstrap.js: {}
+    js/main.js: {}

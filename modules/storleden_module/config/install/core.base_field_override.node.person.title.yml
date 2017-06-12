@@ -1,0 +1,20 @@
+uuid: d269175e-0dd3-4419-9f61-7a3decb312a3
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.person
+_core:
+  default_config_hash: PAEAZdUkKldRMhghoITbUyoGhGuCSvUSBMkMuVKQ7xA
+id: node.person.title
+field_name: title
+entity_type: node
+bundle: person
+label: Namn
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

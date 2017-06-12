@@ -1,0 +1,19 @@
+uuid: 4910cc57-4c3e-42ff-be67-33a6b64d7ac1
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.storleden_footer
+    - field.storage.block_content.field_besok_oss
+id: block_content.storleden_footer.field_besok_oss
+field_name: field_besok_oss
+entity_type: block_content
+bundle: storleden_footer
+label: 'Besök oss'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

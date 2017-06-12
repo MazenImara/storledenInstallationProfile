@@ -1,0 +1,97 @@
+.block-page-title-block{
+	text-align: center;
+	
+}
+
+.node__content{
+	padding:0% 5% 0% 5%;
+	.field--name-field-ingress{
+		display: table;
+    	margin: auto;
+	    margin-bottom: 54px;
+    	margin-top: -23px;
+    	text-align: center;
+	}
+	.field--type-image{
+		width: 99%;
+	}
+	img{
+		display: block;
+    	margin: 0 auto;
+    	width:50%;
+    	margin-bottom: 25px;
+	}
+	.field__label{
+		display: none;
+	}
+}
+
+.kontakt-for-test{
+	input{		
+		border:none;
+		border-bottom: 1px solid #ccc;
+		margin-right: 10%;
+	}	
+	
+}
+
+.page-title{
+	font-size: 35px;
+    display: inline-table;
+	hr{
+		
+	    margin-top: 0px;
+	    border-top: solid #0cf;
+	}
+}
+
+
+.node--type-tjanster{
+	img{
+		width: 25%;
+	}
+}
+
+
+.title{
+	display: table;
+	margin: 20px auto;
+	hr{
+		
+	    
+	    border-top: solid #0cf;
+	}
+}
+
+.kontakt-page{
+	div{
+		margin-top: 3px;
+	}
+}
+
+.top.glyphicon{
+	
+    position: fixed;
+    color: #00c7fc;
+    margin-top: 41%;
+    z-index: 99999;
+    font-size: 40px;
+    right: 15px;
+
+}
+
+button:hover{
+    background-color: #34adce;        
+    border-color: #34adce;
+    transition:1s;        
+}
+
+
+
+
+.node-ingress{
+	width: 50%;
+    display: table;
+    margin: auto;
+    text-transform: uppercase;
+}

@@ -1,0 +1,20 @@
+uuid: 50aed2f3-134c-4876-814a-41f777038d94
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: ourproductssliderblock
+theme: storledentheme
+region: front_page
+weight: -4
+provider: null
+plugin: ourproductssliderblock
+settings:
+  id: ourproductssliderblock
+  label: 'Our products slider block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

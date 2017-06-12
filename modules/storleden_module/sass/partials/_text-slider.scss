@@ -1,0 +1,39 @@
+#textslider {
+	color:white;
+	.carousel-inner{
+		height: 177px; 
+		background: radial-gradient(circle,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95), #000000);
+	}
+	a {
+		color: white;
+
+	}
+	a:hover{
+		    color: #00c6fb;
+    		text-decoration: none;
+	}
+	.carousel-indicators .active {    
+    	background-color: #00c7fc;
+	}
+	.carousel-indicators li {    
+    	border: 1px solid #00c7fc;    
+	}
+
+	img{
+		float: right;
+    	width: 130px;
+    	margin-top: 17px;
+	}
+}
+
+.item-text{
+	
+	text-align: left;
+	text-justify: inter-word; 
+}
+
+.inner{
+	width: 667px;
+	display:table;
+	margin:auto;
+}

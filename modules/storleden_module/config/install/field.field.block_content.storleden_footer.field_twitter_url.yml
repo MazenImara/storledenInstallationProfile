@@ -1,0 +1,19 @@
+uuid: c87c8247-917e-4c06-8c91-5e79562e62e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.storleden_footer
+    - field.storage.block_content.field_twitter_url
+id: block_content.storleden_footer.field_twitter_url
+field_name: field_twitter_url
+entity_type: block_content
+bundle: storleden_footer
+label: 'Twitter Url'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

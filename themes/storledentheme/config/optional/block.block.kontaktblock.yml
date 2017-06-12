@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+    - system
+  theme:
+    - storledentheme
+id: kontaktblock
+theme: storledentheme
+region: content
+weight: 2
+provider: null
+plugin: kontaktblock
+settings:
+  id: kontaktblock
+  label: 'Kontakt Block'
+  provider: storleden_module
+  label_display: '0'
+  screen_text_title: ''
+  screen_text: ''
+  photo:
+    - 32
+  link1: ''
+  link2: ''
+  link3: ''
+  link4: ''
+  link5: ''
+  adress: "CNEMA Hus C, 1 trappa\r\nKungsgatan 56\r\n602 33 Norrköping"
+visibility:
+  request_path:
+    id: request_path
+    pages: /kontakt
+    negate: false
+    context_mapping: {  }

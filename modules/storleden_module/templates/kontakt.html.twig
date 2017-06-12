@@ -1,0 +1,45 @@
+
+
+<div class="kontakt container storleden-module">
+	<div class="ingress">
+		<h6>Om ni vill veta mer om oss, boka ett möte eller ring oss för en partstund</h6>
+		<h6>info@storleden.se</h6>
+		<h6>0764-17 19 87</h6>
+	</div>
+ 	<form {{form.attributes }} method="post">
+                    {{ form.form_build_id }}
+                    {{ form.form_token }}
+                    {{ form.form_id }}
+                    {{ form.subject }}
+                    {{ form.message }}
+	<div class="row">
+		<h5>Kontaktuppgifter</h5>
+		<div class="col-sm-6">
+			{{ form.name }}
+		</div>
+		<div class="col-sm-6">
+			{{ form.company }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			{{ form.email }}
+		</div>
+		<div class="col-sm-6">
+			{{ form.phone }}
+		</div>
+	</div>
+	<div class="checkboxes">
+		<h5>Vet du redan nu vad kan vi hjälpa dig med?</h5>
+		{{ form.check_boxes }}
+	</div>
+	<div class="description">
+		{{ form.description }}
+	</div>
+	<div class="submit-btn">
+		{{ form.actions }}
+	</div>
+	</form>
+</div>
+
+

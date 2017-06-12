@@ -1,0 +1,49 @@
+uuid: de014318-5553-4b87-950c-685d58275ebf
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.project.body
+    - field.field.node.project.field_add_to_slider_
+    - field.field.node.project.field_category
+    - field.field.node.project.field_image
+    - field.field.node.project.field_ingress
+    - field.field.node.project.field_vara_egna_product
+    - node.type.project
+  module:
+    - image
+    - text
+    - user
+id: node.project.default
+targetEntityType: node
+bundle: project
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_image:
+    weight: 1
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_ingress:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  field_add_to_slider_: true
+  field_category: true
+  field_vara_egna_product: true
+  links: true

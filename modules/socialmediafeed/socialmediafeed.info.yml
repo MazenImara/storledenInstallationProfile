@@ -1,0 +1,11 @@
+name: Social Media Feed
+type: module
+description: Social Media Feed module to fetch data from different social channels using page and block.
+package: Social Media
+# core: 8.x
+configure: socialmediafeed.config
+# Information added by Drupal.org packaging script on 2017-05-15
+version: '8.x-1.x-dev'
+core: '8.x'
+project: 'socialmediafeed'
+datestamp: 1494856090

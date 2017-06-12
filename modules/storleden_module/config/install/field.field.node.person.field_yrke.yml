@@ -1,0 +1,21 @@
+uuid: f2375fa9-4edc-41f1-8ba0-db715f4db89c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_yrke
+    - node.type.person
+_core:
+  default_config_hash: 4lxPs2eE2wE1j4VDyUQD41O5SP750TtMHnjRu_TqasM
+id: node.person.field_yrke
+field_name: field_yrke
+entity_type: node
+bundle: person
+label: Yrke
+description: 'Vad du jobbar med (frivilligt)'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

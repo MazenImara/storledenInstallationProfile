@@ -1,0 +1,31 @@
+
+<div class="kontakt-for-test container storleden-module">
+	<h6>Är du intreserad av att testa? Önskar du mer information? Kontakta oss!</h6>
+ 	<form {{form.attributes }} method="post">
+                    {{ form.form_build_id }}
+                    {{ form.form_token }}
+                    {{ form.form_id }}
+                    {{ form.subject }}
+                    {{ form.message }}
+	<div class="row">
+		<div class="col-sm-6">
+			{{ form.name }}
+		</div>
+		<div class="col-sm-6">
+			{{ form.company }}
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-sm-6">
+			{{ form.email }}
+		</div>
+		<div class="col-sm-6">
+			{{ form.phone }}
+		</div>
+	</div>
+	<div class="submit-btn">
+		{{ form.actions }}
+	</div>
+	</form>
+</div>
+

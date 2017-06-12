@@ -1,0 +1,19 @@
+uuid: 7167dbd4-ee84-43f5-b357-8f8b832985a9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingress
+    - node.type.kontakt
+id: node.kontakt.field_ingress
+field_name: field_ingress
+entity_type: node
+bundle: kontakt
+label: Adress
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

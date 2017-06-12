@@ -1,0 +1,76 @@
+<?php
+function storleden_module_theme($existing, $type, $theme, $path) {
+  return array(
+	  	'text_slider' => array(
+	            			'variables' => array(	                		
+	                						  'nodesArray' => 'slides'
+	            							),
+	        			),
+	    'latest_projects' => array(
+	    						'variables' => array(
+	    										  'nodes' => 'nodes'
+	    										)
+	    					),
+	    'tjanster' => array(
+	    						'variables' => array(
+	    										  'nodes' => 'nodes'
+	    										)
+	    					),
+	    'products_angular' => array(
+	    						'variables' => array(
+	    										  'nodes' => 'nodes'
+	    										)
+	    					),
+	    'screen_image_text' => array(
+	    						'variables' => array(
+	    										  'node' => 'node'
+	    										)
+	    					),
+						    						    					
+	    'test' => array(
+	    						'variables' => array(
+	    										  'node' => 'node'
+	    										)
+	    					),
+	    'our_products_slider' => array(
+	    						'variables' => array(
+	    										  'nodes' => 'nodes'
+	    										)
+	    					),
+	    'kontakt_for_test' => array(
+	    						'variables' => array(
+	    										  'form' => 'form'
+	    										)
+	    					),
+	    'kontakt' => array(
+	    						'variables' => array(
+	    										  'form' => 'default value'
+	    										)
+	    					),
+	    'person' => array( //name of twig file
+	        'variables' => array( // key word
+	          'bild'      => 'Okänd profil bild' ,
+	          'namn'      => 'Okänt namn.'/*backup text*/,
+	          'yrke'      => 'Okänt yrke'      ,
+	          'telefon'   => 'Okänt telefon nummer'    ,
+	          'epost'     => 'Okänd epost'           ,
+	          'getPerson' => 'Okänt getPerson'  ,
+	        ),
+	      ),	    						    				
+     'references' => array( //name of twig file
+        'variables' => array( // key word
+          'picture'   => 'Bild saknas' ,
+        				),
+      			),
+     'linkbutton' => array( //name of twig file
+        'variables' => array( // key word
+          'sendMethod' => 'get',
+          'url' => '',
+          'buttonName' => 'Default name',
+        ),
+      ),
+            				      		    						
+    );
+}
+
+

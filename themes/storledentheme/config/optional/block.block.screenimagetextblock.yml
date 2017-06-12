@@ -1,0 +1,28 @@
+uuid: 4c98f424-64c8-4fd4-a75a-54b4ea9e49d8
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: screenimagetextblock
+theme: storledentheme
+region: front_page
+weight: -8
+provider: null
+plugin: screenimagetextblocks
+settings:
+  id: screenimagetextblocks
+  label: 'Screen Image Text Block'
+  provider: storleden_module
+  label_display: '0'
+  screen_text_title: STORLEDEN
+  screen_text: 'hello , word'
+  photo: {  }
+  link1: ''
+  link2: 'Affärssystem , /nod/2'
+  link3: 'Avancerad webbplats, /nod/3'
+  link4: 'Applikationer, /nod/4'
+  link5: 'link  5, /nod/5'
+visibility: {  }

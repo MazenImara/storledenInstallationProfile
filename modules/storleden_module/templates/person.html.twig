@@ -1,0 +1,285 @@
+
+
+
+<div id="team" class="storleden-module staff">
+	<div class="title">
+		<h3>VI ÄR ETT TEAM SOM ÄLSKAR VAD VI GÖR</h3>
+		<hr>
+	</div>
+	<div class="person-ingress">
+		<h4>Vi är en fullservice byrå inom media som brinner för det vi gör oavsett om vi gör en helt ny webbplats.</h4>
+		<h4>Vi arbetar ständigt för att minska vår miljöpåverkan, läs vår miljäpolicy här.</h4>
+
+	</div>
+
+	<div >
+		{% set i = 0 %}
+		{% set rest = getPerson|length %}
+
+		{% for node in getPerson if i < (getPerson|length) %}
+			
+		    <div class="row">
+
+		    	{% if rest == 1 %}
+	    			<div class="col-sm-4">
+		    		
+		    		</div> 
+			    	<div class="col-sm-4">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+			    		
+			    	</div>	
+
+				{% elseif rest == 2 %}
+				    <div class="col-sm-3">
+		    		
+		    		</div>
+					<div class="col-sm-3">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+		    			
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-3">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-3">
+		    		
+		    		</div>
+				{% elseif rest >= 3 %}
+				    <div class="col-sm-4">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+					    <div class="person">
+					    	<div class="outer-img">
+								{% if getPerson[i]['BildURL'] %}
+									<img src={{ getPerson[i]['BildURL'] }}></img>	
+								{% endif %}
+								<div class="over-img">
+									{% if getPerson[i]['Bild2URL'] %}
+										<img src={{ getPerson[i]['Bild2URL'] }}></img>	
+									{% endif %}
+								</div>
+							</div>
+
+							<div class="name">{{ getPerson[i]['Namn'] }}</div>
+
+							<div>
+							{% if getPerson[i]['Yrken'] %}
+								{% for item in getPerson[i]['Yrken'] %}{{ item }}, {% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Telefon'] %}
+								{% for item in getPerson[i]['Telefon'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>
+
+							<div>
+							{% if getPerson[i]['Epost'] %}
+								{% for item in getPerson[i]['Epost'] %}
+									{{ item }} 
+								{% endfor %}
+							{% endif %}
+							</div>							
+						</div>
+			    	</div>
+			    	
+		    		{% set i = i + 1 %}
+		    		{% set rest = rest - i %}
+
+				{% endif %}
+			</div>
+
+		    	    
+		{% endfor %}
+	</div>
+	
+</div>
+

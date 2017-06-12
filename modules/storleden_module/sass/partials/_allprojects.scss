@@ -1,0 +1,106 @@
+.allprojects{
+    img{
+        width: 250px;
+        height: 250px;
+    }
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
+
+.filterDiv.btn-group{
+    display: table;
+    margin: auto;
+}
+
+.mybtn.btn-default, .label2.btn-default {
+    padding: 6px 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #00c3ff;
+    border-color: #00c3ff;
+}
+
+.mybtn.btn-default:hover, .mybtn.btn-default:focus, .mybtn.btn-default:active, .mybtn.btn-default.active, .open > .mybtn.btn-default.dropdown-toggle {
+      color: white;
+      background-color: black;
+      border-color: black;
+}
+
+.label1.btn-default{
+    padding: 6px 14px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: black;
+    border-color: black;
+    span{
+        margin-left: 4px;
+    }
+}
+.label1.btn-default:hover, .label1.btn-default:focus, .label1.btn-default:active, .label1.btn-default.active, .open > .label1.btn-default.dropdown-toggle {
+    padding: 6px 14px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: black;
+    border-color: black;
+}
+
+
+.label2.btn-default:hover, .label2.btn-default:focus, .label2.btn-default:active, .label2.btn-default.active, .open > .label2.btn-default.dropdown-toggle {
+    padding: 6px 10px;
+    margin: 10px 0px 20px 0px;
+    border-radius: 0;
+    color: #ffffff;
+    background-color: #00c3ff;
+    border-color: #00c3ff;
+}
+
+.label2{
+    height: 34px;
+    span{
+        font-size: 35px;
+        margin: -8px 4px 0px -21px;
+        color: black;
+    }
+
+
+}
+
+
+
+.over{
+    width:  250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(31, 174, 225, 0.89);
+    color: white;
+    text-align: left;
+    padding: 15px;
+    display:none;
+}
+
+.outer{
+    display: table;
+    margin: auto;
+
+}
+
+.over-title{
+    margin-top: 60px;
+    font-weight: 900;
+}
+
+.ingress{
+    margin-top: 36px;
+}
+
+}

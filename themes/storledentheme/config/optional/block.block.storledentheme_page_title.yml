@@ -1,0 +1,20 @@
+uuid: 6629f410-0abf-4ed4-8dab-bf2628661700
+langcode: en
+status: true
+dependencies:
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: 7rR9chwXvdM2H8OYMAYx9Zj3GGlPMrZp_M3ZA4thYTk
+id: storledentheme_page_title
+theme: storledentheme
+region: content
+weight: 1
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

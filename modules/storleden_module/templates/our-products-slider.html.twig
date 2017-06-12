@@ -1,0 +1,68 @@
+<div id="ourproducts" class="storleden-module">
+	<h3>VÅRA EGNA PRODUKTER</h3>
+	<hr>
+    <div id="ourproductsslider" class="carousel slide" data-ride="carousel">
+  
+        <!-- Indicators -->
+        <ol class="left carousel-indicators">
+        {% for i in nodes %}
+            <li data-target="#ourproductsslider" data-slide-to="{{ loop.index - 1}}" class="active"></li>
+        {% endfor %}
+        </ol>
+          
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner" >
+            {% for node in nodes %}
+            {% if loop.index == 1 %}
+                <div class="item active" style="padding: 5px;">
+                	<div class="row">
+                		<div class="col-sm-6">
+                		<img src="{{ node.img }}" >
+                		</div>
+                		<div class="col-sm-6">
+                			<div class="title" >
+                    		<h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
+                    		</div>
+                    		<div class="textDiv" >{% filter striptags %}{{ node.body|raw }}{% endfilter %} ...</div>
+                            <div class="product-bottom">
+                                <a href="node/{{ node.id}}" ><button class="btn btn-info">Läs mer</button></a>
+                            </div>
+                		</div>
+                	</div>
+                    
+                </div>
+            {% else %}
+                <div class="item" style="padding: 5px;">
+                    <div class="row">
+                		<div class="col-sm-6">
+                			<img src="{{ node.img }}" >
+                		</div>
+                		<div class="col-sm-6">
+                			<div class="title" >
+                    		<h3><a href="node/{{ node.id}}">{{ node.title}}</a></h3>
+                    		</div>
+                    		<div class="textDiv" >{% filter striptags %}{{ node.body|raw }}{% endfilter %} ...</div>
+                            <div class="product-bottom">
+                                <a href="node/{{ node.id}}" ><button class="btn btn-info">Läs mer</button></a>
+                            </div>
+                    		
+                		</div>
+                	</div>
+                </div>
+            {% endif %}
+            {% endfor %}
+        </div>
+        
+        <!-- Controls 
+        <a class="left carousel-control" href="#ourproductsslider" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+        
+        <a class="right carousel-control" href="#ourproductsslider" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+  		-->
+    </div>
+</div>
+
+

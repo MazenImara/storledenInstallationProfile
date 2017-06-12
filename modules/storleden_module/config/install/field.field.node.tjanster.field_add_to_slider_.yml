@@ -1,0 +1,23 @@
+uuid: 24c87bad-9407-4f6d-aea7-d6961df2d53f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_to_slider_
+    - node.type.tjanster
+id: node.tjanster.field_add_to_slider_
+field_name: field_add_to_slider_
+entity_type: node
+bundle: tjanster
+label: 'Add to slider ?'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

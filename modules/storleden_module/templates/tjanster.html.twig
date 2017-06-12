@@ -1,0 +1,102 @@
+
+
+<div id="tjanster" class="storleden-module">
+	<h3>DET HAR GÖR VI</h3>
+	<hr>
+	<div class="container tjanster">
+		{% set i = 0 %}
+		{% set rest = nodes|length %}
+
+		{% for node in nodes if i < (nodes|length) %}
+			
+		    <div class="row">
+
+		    	{% if rest == 1 %}
+	    			<div class="col-sm-4">
+		    		
+		    		</div> 
+			    	<div class="col-sm-4">
+			    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+			    		</div>	
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+			    		
+			    	</div>	
+
+				{% elseif rest == 2 %}
+				    <div class="col-sm-3">
+		    		
+		    		</div>
+					<div class="col-sm-3">
+		    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+		    		</div>
+		    			
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-3">
+			    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+			    		</div>	
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-3">
+		    		
+		    		</div>
+				{% elseif rest >= 3 %}
+				    <div class="col-sm-4">
+			    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+			    		</div>
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+			    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+			    		</div>	
+			    	</div>
+			    	{% set i = i + 1 %}
+			    	<div class="col-sm-4">
+			    		<div class="tjanst">
+			    			<a href="node/{{ nodes[i].id }}">
+					    		<img src="{{ nodes[i].img }}">
+					    		<h4>{{ nodes[i].title }}</h4>
+		    				</a>
+		    				{{ nodes[i].ingress}}
+			    		</div>	
+			    	</div>
+			    	
+		    		{% set i = i + 1 %}
+		    		{% set rest = rest - i %}
+
+				{% endif %}
+			</div>
+
+		    	    
+		{% endfor %}
+	</div>
+	<a href="allprojects" class=""><button class="btn btn-info" >Vi hjälper dig</button></a>
+</div>
+

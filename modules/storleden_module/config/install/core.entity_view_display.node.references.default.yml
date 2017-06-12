@@ -1,0 +1,28 @@
+uuid: 6376a3dc-ab59-4783-99e3-14f23c575a25
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.references.body
+    - field.field.node.references.field_image
+    - node.type.references
+  module:
+    - image
+    - user
+id: node.references.default
+targetEntityType: node
+bundle: references
+mode: default
+content:
+  field_image:
+    weight: 0
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+hidden:
+  body: true
+  links: true

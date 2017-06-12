@@ -1,0 +1,29 @@
+
+
+
+
+
+
+<div id="screenText" class="storleden-module">
+	<div class="middle">
+		<div class="screen-title">
+			<h2> {{ node.screenTextTitle }}</h2>
+			<hr>
+		</div>
+		
+		<h3>{{ node.screenText }}<br></h3>
+		{% for link in node.links %}
+
+		    <a href=" {{link.url}} "><button class="btn">{{link.value}}</button> </a>
+		{% endfor %}			
+	</div>
+</div>
+
+
+
+<style type="text/css">
+
+#screenText{
+	background-image:url("{{ node.imgurl }}");
+}
+</style>

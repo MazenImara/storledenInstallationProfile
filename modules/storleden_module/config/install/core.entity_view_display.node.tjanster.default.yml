@@ -1,0 +1,38 @@
+uuid: d5474fc0-e0cb-4bb9-9a10-26528b5fd63a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.tjanster.body
+    - field.field.node.tjanster.field_add_to_slider_
+    - field.field.node.tjanster.field_image
+    - field.field.node.tjanster.field_ingress
+    - field.field.node.tjanster.field_weight
+    - node.type.tjanster
+  module:
+    - text
+    - user
+id: node.tjanster.default
+targetEntityType: node
+bundle: tjanster
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_ingress:
+    weight: 0
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: basic_string
+    region: content
+hidden:
+  field_add_to_slider_: true
+  field_image: true
+  field_weight: true
+  links: true

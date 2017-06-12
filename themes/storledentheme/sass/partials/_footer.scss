@@ -1,0 +1,46 @@
+.storleden-footer{
+	img{
+		max-width: 88%;
+	}
+	.social{
+		text-align: center;
+		img{
+			margin-top: 5%;
+			margin-left: 10%;
+		}
+
+
+	}
+}
+
+
+.region-footer{
+	background-color: #343434 ;
+	color: white;
+	
+	font-size: 10px;
+}
+
+
+.flex-container {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  //background: tomato;
+  padding: 5px;
+  width: 150px;
+  margin-top: 10px;
+  height: 100px;
+}

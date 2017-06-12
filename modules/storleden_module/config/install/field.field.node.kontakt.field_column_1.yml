@@ -1,0 +1,21 @@
+uuid: fd0210d3-130d-47df-a740-3b87d2510f15
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_column_1
+    - node.type.kontakt
+  module:
+    - text
+id: node.kontakt.field_column_1
+field_name: field_column_1
+entity_type: node
+bundle: kontakt
+label: 'column 1'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

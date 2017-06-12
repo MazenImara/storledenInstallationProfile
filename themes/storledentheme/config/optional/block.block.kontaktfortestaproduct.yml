@@ -1,0 +1,28 @@
+uuid: 46c731ea-6962-4c83-9069-42f304be24f4
+langcode: en
+status: true
+dependencies:
+  module:
+    - ctools
+    - storleden_module
+  theme:
+    - storledentheme
+id: kontaktfortestaproduct
+theme: storledentheme
+region: content
+weight: 4
+provider: null
+plugin: kontaktfortest
+settings:
+  id: kontaktfortest
+  label: 'Kontakt for test a product'
+  provider: storleden_module
+  label_display: '0'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      project: project
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

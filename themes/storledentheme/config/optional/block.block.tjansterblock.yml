@@ -1,0 +1,20 @@
+uuid: ccc33d77-28ee-458e-a573-17a8cb88f05c
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: tjansterblock
+theme: storledentheme
+region: front_page
+weight: -5
+provider: null
+plugin: tjansterblocks
+settings:
+  id: tjansterblocks
+  label: 'Tjanster Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

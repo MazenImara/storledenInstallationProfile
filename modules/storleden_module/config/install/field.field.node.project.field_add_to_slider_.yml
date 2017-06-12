@@ -1,0 +1,23 @@
+uuid: f72a3f08-84ee-48a8-a6dd-162c05734ce8
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_to_slider_
+    - node.type.project
+id: node.project.field_add_to_slider_
+field_name: field_add_to_slider_
+entity_type: node
+bundle: project
+label: 'Add to slider ?'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

@@ -1,0 +1,23 @@
+uuid: eaacd6fe-8c74-4f13-98e3-3d911df6bda4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_vara_egna_product
+    - node.type.project
+id: node.project.field_vara_egna_product
+field_name: field_vara_egna_product
+entity_type: node
+bundle: project
+label: 'Våra Egna Product'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

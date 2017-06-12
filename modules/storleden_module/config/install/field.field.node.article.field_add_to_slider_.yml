@@ -1,0 +1,23 @@
+uuid: df45ca8b-4163-419a-b8ab-f505830650c4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_to_slider_
+    - node.type.article
+id: node.article.field_add_to_slider_
+field_name: field_add_to_slider_
+entity_type: node
+bundle: article
+label: 'Add to slider ?'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

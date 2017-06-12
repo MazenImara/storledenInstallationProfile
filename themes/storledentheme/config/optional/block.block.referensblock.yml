@@ -1,0 +1,20 @@
+uuid: 6acdb802-7738-4360-b3cd-63c54ffe9bcf
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: referensblock
+theme: storledentheme
+region: front_page
+weight: -2
+provider: null
+plugin: referensblock
+settings:
+  id: referensblock
+  label: 'Referens Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

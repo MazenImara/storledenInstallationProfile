@@ -1,0 +1,22 @@
+uuid: 46476e64-79dd-49a9-8719-944c17281845
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.storleden_footer
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.storleden_footer.body
+field_name: body
+entity_type: block_content
+bundle: storleden_footer
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

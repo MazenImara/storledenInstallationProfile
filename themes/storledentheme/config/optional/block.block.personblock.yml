@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: personblock
+theme: storledentheme
+region: front_page
+weight: -3
+provider: null
+plugin: person_block
+settings:
+  id: person_block
+  label: 'Person Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

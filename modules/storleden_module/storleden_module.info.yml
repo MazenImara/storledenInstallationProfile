@@ -1,0 +1,5 @@
+name: Storleden module
+description: module for Storleden blocks
+type: module
+package: Storleden
+core: 8.x

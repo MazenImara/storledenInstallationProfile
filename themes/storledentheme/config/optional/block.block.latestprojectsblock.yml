@@ -1,0 +1,20 @@
+uuid: 51ba058c-7a8c-4205-9f1b-fc3ba35dd863
+langcode: en
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+id: latestprojectsblock
+theme: storledentheme
+region: front_page
+weight: -6
+provider: null
+plugin: latestprojectsblocks
+settings:
+  id: latestprojectsblocks
+  label: 'Latest Projects Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

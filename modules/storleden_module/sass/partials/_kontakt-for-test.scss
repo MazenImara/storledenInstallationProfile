@@ -1,0 +1,29 @@
+.kontakt-for-test{
+	.submit-btn{
+		display: table;
+		margin: auto;
+		input{
+			background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
+		    color: white;
+		    width: 100px;
+		    height: 41px;
+		    border-radius: 20px;
+		}
+		input:hover{
+		    background-color: #34adce;        
+		    border-color: #34adce;
+		    transition:1s;
+		}
+		input.form-submit:hover, input.form-submit:focus {
+    background: #34adce;
+
+		}
+	}
+	
+	input  , input:focus{		
+		border:none;
+		border-bottom: 1px solid #ccc;
+		margin-right: 10%;
+		outline: none;
+	}	
+}

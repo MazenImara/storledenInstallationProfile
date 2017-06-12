@@ -1,0 +1,17 @@
+
+<div id="referenser" class="container referenser">
+	<div class="title">
+		<h3>REFERENSER</h3>
+		<hr>
+	</div>
+	<div  class="referencesWrapper " style="width: 100%">
+
+		{% for pictureURL in picture %}
+			{% if  pictureURL %}
+				<div class="aligner" >
+					<img src="{{ pictureURL }}"></img>
+				</div>
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>

@@ -1,0 +1,21 @@
+uuid: ae502c85-5082-43d4-81dc-2db85a49558f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_epost
+    - node.type.person
+_core:
+  default_config_hash: NkxtyOyqQgYBfXd7q1h2GNrEvuLb2vSZhOVJMiXcE_8
+id: node.person.field_epost
+field_name: field_epost
+entity_type: node
+bundle: person
+label: Epost
+description: 'Din e-post adress'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

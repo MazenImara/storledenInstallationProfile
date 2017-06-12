@@ -1,0 +1,77 @@
+uuid: 538178e8-06cb-4227-88d0-363ba61b0f92
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.person.body
+    - field.field.node.person.field_epost
+    - field.field.node.person.field_image
+    - field.field.node.person.field_image2
+    - field.field.node.person.field_telefon
+    - field.field.node.person.field_yrke
+    - image.style.thumbnail
+    - node.type.person
+  module:
+    - image
+_core:
+  default_config_hash: 9TYCQtQxF0Ekr87iwlwfsYtkplmbwUq98kgAzEvB6ac
+id: node.person.default
+targetEntityType: node
+bundle: person
+mode: default
+content:
+  field_epost:
+    weight: 3
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_image:
+    weight: 26
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_image2:
+    weight: 27
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_telefon:
+    weight: 4
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_yrke:
+    weight: 2
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  body: true
+  created: true
+  path: true
+  promote: true
+  sticky: true
+  uid: true

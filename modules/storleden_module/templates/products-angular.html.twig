@@ -1,0 +1,40 @@
+<div class="container storleden-module allprojects">
+        <div class="row"> 
+
+        <div align="center" class="btn-group filterDiv" role="group">
+            <button class="btn btn-default  label1" >FILTRERA<span class="glyphicon glyphicon-filter"></span></button>
+            <button class="btn btn-default label2" ><span class="glyphicon glyphicon-triangle-right"></button>
+            <button class="btn btn-default filter-button mybtn all" data-filter="all">All</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Webb">Webb</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="App">App</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="System">System</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Vidareutveckling">Vidareutveckling</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Teknisklösning">Teknisk lösning</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Film">Film</button>
+            <button class="btn btn-default filter-button mybtn" data-filter="Reklamfilm">Reklamfilm</button>
+        </div>
+        <br/>
+
+            {% for node in nodes %}
+                <div class="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter {{node.cat}} ">
+                    <div class="outer">                        
+                        <img src="{{ node.img }}" class="img-responsive">
+                        <div class="over">
+                            <div class="over-title">{{node.title}}</div> 
+                            <div class="ingress">{{node.ingress}}</div> 
+                        </div>
+                    </div>                
+                    
+                </div>                
+            {% endfor %}
+
+
+        </div>
+    </div>
+
+   
+
+
+   
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
