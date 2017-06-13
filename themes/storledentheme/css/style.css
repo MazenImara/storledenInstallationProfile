@@ -1,77 +1,88 @@
 /* line 4, ../sass/partials/_header.scss */
-.user-logged-in header {
-  background-color: #343434;
+.user-logged-in header, .user-logged-in #header {
+  background-color: #00c7fc;
   position: relative;
   z-index: 0;
 }
 
-/* line 16, ../sass/partials/_header.scss */
-header nav {
+/* line 13, ../sass/partials/_header.scss */
+header, #header {
+  position: fixed;
+  width: 100%;
+  background-color: #00c7fc;
+  z-index: 99;
+}
+/* line 19, ../sass/partials/_header.scss */
+header nav, #header nav {
   width: 100%;
   margin-top: -19px;
 }
-/* line 20, ../sass/partials/_header.scss */
-header .meny-stang {
+/* line 23, ../sass/partials/_header.scss */
+header .meny-stang, #header .meny-stang {
   font-size: 178%;
   float: right;
   margin-top: 4%;
 }
-/* line 25, ../sass/partials/_header.scss */
-header .site-branding {
+/* line 28, ../sass/partials/_header.scss */
+header .site-branding, #header .site-branding {
   padding-top: 22px;
   margin-left: 35px;
 }
-/* line 28, ../sass/partials/_header.scss */
-header .site-branding img {
+/* line 31, ../sass/partials/_header.scss */
+header .site-branding img, #header .site-branding img {
   width: 69%;
   height: auto;
   background-size: 100% auto;
 }
-/* line 35, ../sass/partials/_header.scss */
-header hr {
-  border-top: 1px solid #0cf;
+/* line 38, ../sass/partials/_header.scss */
+header hr, #header hr {
+  border-top: 1px solid white;
 }
-/* line 39, ../sass/partials/_header.scss */
-header a {
+/* line 42, ../sass/partials/_header.scss */
+header a, #header a {
   display: block;
   color: white;
   font-family: raleway;
   font-size: 24px;
 }
-/* line 48, ../sass/partials/_header.scss */
-header li ul a {
+/* line 51, ../sass/partials/_header.scss */
+header li ul a, #header li ul a {
   font-size: 20px;
 }
-/* line 53, ../sass/partials/_header.scss */
-header a:hover {
+/* line 56, ../sass/partials/_header.scss */
+header a:hover, #header a:hover {
   text-decoration: none;
-  color: #0cf;
+  color: #017794;
 }
-/* line 60, ../sass/partials/_header.scss */
-header li .glyphicon-chevron-right {
+/* line 63, ../sass/partials/_header.scss */
+header li .glyphicon-chevron-right, #header li .glyphicon-chevron-right {
   font-size: 18px;
   margin-right: 6px;
 }
-/* line 65, ../sass/partials/_header.scss */
-header .menu-item--expanded {
+/* line 68, ../sass/partials/_header.scss */
+header .menu-item--expanded, #header .menu-item--expanded {
   list-style-image: none;
   list-style-type: none;
 }
-/* line 69, ../sass/partials/_header.scss */
-header .menu-item--expanded ul {
+/* line 72, ../sass/partials/_header.scss */
+header .menu-item--expanded ul, #header .menu-item--expanded ul {
   margin-left: 7px;
   margin-bottom: 0px;
 }
-/* line 72, ../sass/partials/_header.scss */
-header .menu-item--expanded ul span {
+/* line 75, ../sass/partials/_header.scss */
+header .menu-item--expanded ul span, #header .menu-item--expanded ul span {
   display: none;
 }
-/* line 79, ../sass/partials/_header.scss */
-header .storledenAB img {
+/* line 82, ../sass/partials/_header.scss */
+header .storledenAB img, #header .storledenAB img {
   margin-top: 48px;
 }
+/* line 87, ../sass/partials/_header.scss */
+header .site-branding__text, #header .site-branding__text {
+  display: none;
+}
 
-/* line 88, ../sass/partials/_header.scss */
+/* line 95, ../sass/partials/_header.scss */
 .front-header {
   background-color: transparent;
   z-index: 99;
@@ -79,17 +90,17 @@ header .storledenAB img {
   width: 100%;
 }
 
-/* line 95, ../sass/partials/_header.scss */
+/* line 102, ../sass/partials/_header.scss */
 .headerColor {
-  background-color: #343434;
+  background-color: #00c7fc;
 }
 
-/* line 99, ../sass/partials/_header.scss */
+/* line 106, ../sass/partials/_header.scss */
 .headerColorScroll {
-  background-color: #343434;
+  background-color: #00c7fc;
 }
 
-/* line 104, ../sass/partials/_header.scss */
+/* line 111, ../sass/partials/_header.scss */
 .flex-container-heder {
   padding: 0;
   margin: 0;
@@ -103,7 +114,7 @@ header .storledenAB img {
   justify-content: space-around;
 }
 
-/* line 119, ../sass/partials/_header.scss */
+/* line 126, ../sass/partials/_header.scss */
 .flex-item-header {
   /* background: tomato; */
   padding: 5px;
@@ -112,7 +123,7 @@ header .storledenAB img {
   margin-top: 10px;
 }
 
-/* line 127, ../sass/partials/_header.scss */
+/* line 134, ../sass/partials/_header.scss */
 .flex-container-nav {
   padding: 0;
   margin: 0;
@@ -126,7 +137,7 @@ header .storledenAB img {
   justify-content: space-around;
 }
 
-/* line 142, ../sass/partials/_header.scss */
+/* line 149, ../sass/partials/_header.scss */
 .flex-item-nav {
   padding: 5px;
   min-width: 142px;
