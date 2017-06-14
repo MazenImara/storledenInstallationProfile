@@ -123,7 +123,7 @@ header .site-branding__text, #header .site-branding__text {
   margin-top: 10px;
 }
 
-/* line 134, ../sass/partials/_header.scss */
+/* line 136, ../sass/partials/_header.scss */
 .flex-container-nav {
   padding: 0;
   margin: 0;
@@ -137,15 +137,33 @@ header .site-branding__text, #header .site-branding__text {
   justify-content: space-around;
 }
 
-/* line 149, ../sass/partials/_header.scss */
+/* line 151, ../sass/partials/_header.scss */
 .flex-item-nav {
   padding: 5px;
-  min-width: 142px;
   width: 25%;
   margin-top: 10px;
   padding-bottom: 7%;
 }
 
+@media screen and (max-width: 700px) {
+  /* line 164, ../sass/partials/_header.scss */
+  .flex-item-nav {
+    min-width: 360px;
+  }
+
+  /* line 168, ../sass/partials/_header.scss */
+  header .storledenAB img, #header .storledenAB img {
+    margin-top: -16px;
+    max-width: 219px;
+    margin-bottom: -39px;
+    margin-left: 12px;
+  }
+
+  /* line 174, ../sass/partials/_header.scss */
+  header a, #header a {
+    font-size: 20px;
+  }
+}
 /* line 1, ../sass/partials/_node-page.scss */
 body, span, div, h2, h3 {
   font-family: raleway;

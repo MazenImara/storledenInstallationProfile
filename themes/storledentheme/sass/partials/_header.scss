@@ -131,6 +131,8 @@ header , #header{
     margin-top: 10px;
 }
 
+
+
 .flex-container-nav {
   padding: 0;
   margin: 0;
@@ -149,9 +151,27 @@ header , #header{
 .flex-item-nav {
     //background: tomato; 
     padding: 5px;
-    min-width: 142px;
+    //min-width: 142px;
     width: 25%;
     margin-top: 10px;
     padding-bottom: 7%;
 
+}
+
+
+
+@media screen and (max-width: 700px) {
+	.flex-item-nav {
+	    
+	    min-width: 360px;
+	}
+	header .storledenAB img, #header .storledenAB img {
+		margin-top: -16px;
+	    max-width: 219px;
+	    margin-bottom: -39px;
+	    margin-left: 12px;
+	}
+	header a, #header a {    
+    	font-size: 20px;
+	}
 }
