@@ -355,21 +355,22 @@
   /* line 30, ../sass/partials/_text-slider.scss */
   #textslider .col-sm-3 {
     display: inline-block;
+    margin-left: 1%;
   }
-  /* line 34, ../sass/partials/_text-slider.scss */
+  /* line 35, ../sass/partials/_text-slider.scss */
   #textslider .col-sm-9 {
     position: absolute;
     display: inline-block;
   }
 }
 
-/* line 45, ../sass/partials/_text-slider.scss */
+/* line 46, ../sass/partials/_text-slider.scss */
 .item-text {
   text-align: left;
   text-justify: inter-word;
 }
 
-/* line 51, ../sass/partials/_text-slider.scss */
+/* line 52, ../sass/partials/_text-slider.scss */
 .inner {
   width: 667px;
   display: table;
