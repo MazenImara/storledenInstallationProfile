@@ -8,6 +8,21 @@
 .storleden-module a:hover {
   text-decoration: none;
 }
+/* line 11, ../sass/partials/_global-for-module.scss */
+.storleden-module button {
+  margin: 47px 0px 32px 0px;
+  background-color: #00c7fc;
+  padding: 10px 20px 10px 20px;
+  border-radius: 39px;
+}
+/* line 17, ../sass/partials/_global-for-module.scss */
+.storleden-module button:hover {
+  margin: 47px 0px 32px 0px;
+  background-color: #34adce;
+  padding: 10px 20px 10px 20px;
+  border-radius: 39px;
+  border-color: #34adce;
+}
 
 /* line 1, ../sass/partials/_latest-projects.scss */
 .projects {
@@ -65,13 +80,11 @@
 .projects button {
   margin: 47px 0px 32px 0px;
   background-color: #00c7fc;
-  border-radius: 17px;
 }
 /* line 61, ../sass/partials/_latest-projects.scss */
 .projects button:hover {
   margin: 47px 0px 32px 0px;
   background-color: #34adce;
-  border-radius: 17px;
   border-color: #34adce;
 }
 
@@ -86,27 +99,36 @@
   color: white;
   margin: -10px 0px -10px 0px;
 }
-/* line 15, ../sass/partials/_screen-image-text.scss */
+/* line 14, ../sass/partials/_screen-image-text.scss */
+#screenText h2 {
+  font-size: 45px;
+}
+/* line 17, ../sass/partials/_screen-image-text.scss */
+#screenText h3 {
+  font-size: 35px;
+}
+/* line 21, ../sass/partials/_screen-image-text.scss */
 #screenText button {
   color: black;
   margin-top: 8%;
   margin-right: 4%;
   border-radius: 20px;
+  padding: 8px;
   background-color: rgba(255, 255, 255, 0.42);
 }
-/* line 23, ../sass/partials/_screen-image-text.scss */
+/* line 30, ../sass/partials/_screen-image-text.scss */
 #screenText button:hover {
   background-color: #34adce;
   border-color: #34adce;
   transition: 1s;
 }
 
-/* line 33, ../sass/partials/_screen-image-text.scss */
+/* line 40, ../sass/partials/_screen-image-text.scss */
 .screen-title {
   display: table;
   margin: auto;
 }
-/* line 36, ../sass/partials/_screen-image-text.scss */
+/* line 43, ../sass/partials/_screen-image-text.scss */
 .screen-title hr {
   margin-top: -10px;
   margin-bottom: 3px;
@@ -114,28 +136,28 @@
   border-top: 3px solid #ffffff;
 }
 
-/* line 44, ../sass/partials/_screen-image-text.scss */
+/* line 51, ../sass/partials/_screen-image-text.scss */
 .middle {
   display: table-cell;
   vertical-align: middle;
 }
 
-/* line 59, ../sass/partials/_screen-image-text.scss */
+/* line 66, ../sass/partials/_screen-image-text.scss */
 .screen-img {
   margin-top: 50px;
 }
-/* line 61, ../sass/partials/_screen-image-text.scss */
+/* line 68, ../sass/partials/_screen-image-text.scss */
 .screen-img p {
   margin: 0px 0px 0px 0px;
 }
-/* line 65, ../sass/partials/_screen-image-text.scss */
+/* line 72, ../sass/partials/_screen-image-text.scss */
 .screen-img img {
   max-width: 100%;
   height: auto;
   min-width: 100%;
 }
 
-/* line 75, ../sass/partials/_screen-image-text.scss */
+/* line 82, ../sass/partials/_screen-image-text.scss */
 #block-screenimgtext {
   position: absolute;
   left: 31%;
@@ -147,7 +169,7 @@
 }
 
 @media screen and (max-width: 605px) {
-  /* line 87, ../sass/partials/_screen-image-text.scss */
+  /* line 94, ../sass/partials/_screen-image-text.scss */
   #block-screenimgtext {
     position: absolute;
     left: 31%;
@@ -159,7 +181,7 @@
   }
 }
 @media screen and (max-width: 460px) {
-  /* line 99, ../sass/partials/_screen-image-text.scss */
+  /* line 106, ../sass/partials/_screen-image-text.scss */
   #block-screenimgtext {
     position: absolute;
     left: 31%;
@@ -171,7 +193,7 @@
   }
 }
 @media screen and (max-width: 377px) {
-  /* line 112, ../sass/partials/_screen-image-text.scss */
+  /* line 119, ../sass/partials/_screen-image-text.scss */
   #block-screenimgtext {
     position: absolute;
     left: 31%;
@@ -183,36 +205,36 @@
   }
 }
 @media screen and (min-height: 600px) {
-  /* line 125, ../sass/partials/_screen-image-text.scss */
+  /* line 132, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 631px;
   }
 }
 @media screen and (min-height: 700px) {
-  /* line 133, ../sass/partials/_screen-image-text.scss */
+  /* line 140, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 768px;
   }
 }
 @media screen and (max-height: 700px) and (max-width: 360px) {
-  /* line 139, ../sass/partials/_screen-image-text.scss */
+  /* line 146, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 360px;
   }
-  /* line 141, ../sass/partials/_screen-image-text.scss */
+  /* line 148, ../sass/partials/_screen-image-text.scss */
   #screenText h2 {
     font-size: 20px;
   }
-  /* line 144, ../sass/partials/_screen-image-text.scss */
+  /* line 151, ../sass/partials/_screen-image-text.scss */
   #screenText h3 {
     font-size: 16px;
     margin-top: 3px;
   }
-  /* line 148, ../sass/partials/_screen-image-text.scss */
+  /* line 155, ../sass/partials/_screen-image-text.scss */
   #screenText hr {
     border-top: 1px solid #ffffff;
   }
-  /* line 151, ../sass/partials/_screen-image-text.scss */
+  /* line 158, ../sass/partials/_screen-image-text.scss */
   #screenText button {
     margin-top: 2%;
     margin-right: 1%;
@@ -220,19 +242,19 @@
   }
 }
 @media screen and (min-height: 900px) {
-  /* line 161, ../sass/partials/_screen-image-text.scss */
+  /* line 168, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 900px;
   }
 }
 @media screen and (min-height: 1080px) {
-  /* line 169, ../sass/partials/_screen-image-text.scss */
+  /* line 176, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 1080px;
   }
 }
 @media screen and (min-height: 1200px) {
-  /* line 176, ../sass/partials/_screen-image-text.scss */
+  /* line 183, ../sass/partials/_screen-image-text.scss */
   #screenText {
     height: 1222px;
   }
@@ -281,19 +303,6 @@
   margin-top: 0px;
   margin-bottom: -50px;
   border-top: solid #0cf;
-}
-/* line 42, ../sass/partials/_tjanster.scss */
-#tjanster button {
-  margin: 47px 0px 32px 0px;
-  background-color: #00c7fc;
-  border-radius: 17px;
-}
-/* line 47, ../sass/partials/_tjanster.scss */
-#tjanster button:hover {
-  margin: 47px 0px 32px 0px;
-  background-color: #34adce;
-  border-radius: 17px;
-  border-color: #34adce;
 }
 
 /* line 1, ../sass/partials/_text-slider.scss */
@@ -387,21 +396,7 @@
 #ourproducts .carousel-indicators li {
   border: 1px solid #00c7fc;
 }
-/* line 47, ../sass/partials/_our-products-slider.scss */
-#ourproducts button {
-  float: left;
-  margin: 27px 0px 10px 0px;
-  background-color: #00c7fc;
-  border-radius: 18px;
-  padding: 7px 20px 7px 22px;
-}
-/* line 54, ../sass/partials/_our-products-slider.scss */
-#ourproducts button:hover {
-  background-color: #34adce;
-  border-color: #34adce;
-  transition: 1s;
-}
-/* line 60, ../sass/partials/_our-products-slider.scss */
+/* line 49, ../sass/partials/_our-products-slider.scss */
 #ourproducts .product-bottom {
   display: table;
   margin: auto;
