@@ -20,11 +20,27 @@
 	}
 
 	img{
-		float: right;
+		
     	width: 130px;
     	margin-top: 17px;
 	}
-}
+	@media screen and (max-width: 777px) {
+
+		
+			.col-sm-3 {
+				        display: inline-block;
+
+			}
+			.col-sm-9{
+				position: absolute;
+			    display: inline-block;
+   	
+		    
+			}
+			
+		
+	}
+} //end of .slider
 
 .item-text{
 	
@@ -37,3 +53,4 @@
 	display:table;
 	margin:auto;
 }
+
