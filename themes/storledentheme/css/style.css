@@ -156,21 +156,21 @@ p {
   font-family: Open sans;
 }
 
-/* line 9, ../sass/partials/_node-page.scss */
+/* line 10, ../sass/partials/_node-page.scss */
 .region-content {
   margin-top: 120px;
 }
 
-/* line 13, ../sass/partials/_node-page.scss */
+/* line 14, ../sass/partials/_node-page.scss */
 .block-page-title-block {
   text-align: center;
 }
 
-/* line 18, ../sass/partials/_node-page.scss */
+/* line 19, ../sass/partials/_node-page.scss */
 .node__content {
   padding: 0% 5% 0% 5%;
 }
-/* line 20, ../sass/partials/_node-page.scss */
+/* line 21, ../sass/partials/_node-page.scss */
 .node__content .field--name-field-ingress {
   display: table;
   margin: auto;
@@ -178,61 +178,61 @@ p {
   margin-top: -23px;
   text-align: center;
 }
-/* line 27, ../sass/partials/_node-page.scss */
+/* line 28, ../sass/partials/_node-page.scss */
 .node__content .field--type-image {
   width: 99%;
 }
-/* line 30, ../sass/partials/_node-page.scss */
+/* line 31, ../sass/partials/_node-page.scss */
 .node__content img {
   display: block;
   margin: 0 auto;
   width: 50%;
   margin-bottom: 25px;
 }
-/* line 36, ../sass/partials/_node-page.scss */
+/* line 37, ../sass/partials/_node-page.scss */
 .node__content .field__label {
   display: none;
 }
 
-/* line 42, ../sass/partials/_node-page.scss */
+/* line 43, ../sass/partials/_node-page.scss */
 .kontakt-for-test input {
   border: none;
   border-bottom: 1px solid #ccc;
   margin-right: 10%;
 }
 
-/* line 50, ../sass/partials/_node-page.scss */
+/* line 51, ../sass/partials/_node-page.scss */
 .page-title {
   font-size: 35px;
   display: inline-table;
 }
-/* line 53, ../sass/partials/_node-page.scss */
+/* line 54, ../sass/partials/_node-page.scss */
 .page-title hr {
   margin-top: 0px;
   border-top: solid #0cf;
 }
 
-/* line 62, ../sass/partials/_node-page.scss */
+/* line 63, ../sass/partials/_node-page.scss */
 .node--type-tjanster img {
   width: 25%;
 }
 
-/* line 68, ../sass/partials/_node-page.scss */
+/* line 69, ../sass/partials/_node-page.scss */
 .title {
   display: table;
   margin: 20px auto;
 }
-/* line 71, ../sass/partials/_node-page.scss */
+/* line 72, ../sass/partials/_node-page.scss */
 .title hr {
   border-top: solid #0cf;
 }
 
-/* line 79, ../sass/partials/_node-page.scss */
+/* line 80, ../sass/partials/_node-page.scss */
 .kontakt-page div {
   margin-top: 3px;
 }
 
-/* line 84, ../sass/partials/_node-page.scss */
+/* line 85, ../sass/partials/_node-page.scss */
 .top.glyphicon {
   position: fixed;
   color: #00c7fc;
@@ -242,14 +242,14 @@ p {
   right: 15px;
 }
 
-/* line 95, ../sass/partials/_node-page.scss */
+/* line 96, ../sass/partials/_node-page.scss */
 button:hover {
   background-color: #34adce;
   border-color: #34adce;
   transition: 1s;
 }
 
-/* line 104, ../sass/partials/_node-page.scss */
+/* line 105, ../sass/partials/_node-page.scss */
 .node-ingress {
   width: 50%;
   display: table;
@@ -257,13 +257,13 @@ button:hover {
   text-transform: uppercase;
 }
 
-/* line 111, ../sass/partials/_node-page.scss */
+/* line 112, ../sass/partials/_node-page.scss */
 a, a.link {
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 116, ../sass/partials/_node-page.scss */
+/* line 117, ../sass/partials/_node-page.scss */
 a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   text-decoration: none;
   border-bottom-style: none;
