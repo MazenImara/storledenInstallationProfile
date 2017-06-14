@@ -1,11 +1,13 @@
-
-		<span  class="top glyphicon glyphicon-chevron-up"></span>
-		<div id="hem" >
-
-		  <header role="banner" class="header front-header navbar-fixed-top">
-		          {{ page.header }}
-		  </header>
-
+<span  class="top glyphicon glyphicon-chevron-up"></span>
+<div id="hem" >
+<div id="page-wrapper">
+  <div id="page">
+    <header  class="header front-header page-heder" role="banner" aria-label="{{ 'Site header'|t }}">
+      <div class="section layout-container clearfix">        
+        {{ page.header }}        
+      </div>
+    </header>   
+    
 		  <div class="front_page">
 		    {{ page.front_page }}
 		  </div>
@@ -13,9 +15,19 @@
 		  <div >
 		  	{{ page.footer }}
 		  </div>
+    
+    
+    
+  </div>
+</div>
+</div>
 
 
-		</div>
+
+
+
+
+		
 
  
     
