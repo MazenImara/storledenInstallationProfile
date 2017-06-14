@@ -291,7 +291,7 @@
 }
 /* line 24, ../sass/partials/_tjanster.scss */
 .tjanster .tjanst h4 {
-  font-size: 22px;
+  font-size: 20px;
 }
 /* line 28, ../sass/partials/_tjanster.scss */
 .tjanster .row {
@@ -299,8 +299,8 @@
 }
 /* line 31, ../sass/partials/_tjanster.scss */
 .tjanster .tjanst-ingress {
-  font-size: 18px;
-  text-align: justify;
+  font-size: 16px;
+  text-align: center;
   max-width: 300px;
   display: table;
   margin: auto;
