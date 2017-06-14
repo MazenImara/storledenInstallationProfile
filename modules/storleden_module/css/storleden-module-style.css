@@ -31,8 +31,8 @@
 }
 /* line 5, ../sass/partials/_latest-projects.scss */
 .projects img {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
 }
@@ -66,22 +66,24 @@
 .projects .outer {
   display: table;
   margin: auto;
+  width: 300px;
+  height: 300px;
 }
-/* line 47, ../sass/partials/_latest-projects.scss */
+/* line 49, ../sass/partials/_latest-projects.scss */
 .projects .over-title {
   margin-top: 60px;
   font-weight: 900;
 }
-/* line 52, ../sass/partials/_latest-projects.scss */
+/* line 54, ../sass/partials/_latest-projects.scss */
 .projects .ingress {
   margin-top: 36px;
 }
-/* line 56, ../sass/partials/_latest-projects.scss */
+/* line 58, ../sass/partials/_latest-projects.scss */
 .projects button {
   margin: 47px 0px 32px 0px;
   background-color: #00c7fc;
 }
-/* line 61, ../sass/partials/_latest-projects.scss */
+/* line 63, ../sass/partials/_latest-projects.scss */
 .projects button:hover {
   margin: 47px 0px 32px 0px;
   background-color: #34adce;

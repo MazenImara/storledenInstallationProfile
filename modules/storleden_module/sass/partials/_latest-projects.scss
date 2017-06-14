@@ -3,8 +3,8 @@
 	text-align: center;
 
 	img{
-		width: 300px;
-		height: 300px;
+		width: 100%;
+		height: auto;
 		display: block;
 		margin: 0 auto;
 	}
@@ -41,6 +41,8 @@
 .outer{
 	display: table;
     margin: auto;
+    width: 300px;
+    height: 300px;
 
 }
 
