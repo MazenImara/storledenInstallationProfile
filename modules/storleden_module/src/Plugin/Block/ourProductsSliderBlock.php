@@ -39,10 +39,12 @@ class ourProductsSliderBlock extends BlockBase {
 
     #this is entity query
     $query = \Drupal::entityQuery('node')
-    ->condition('status', 1)->pager(4)->sort('created','DESC')->condition('type', 'Project', '=')->condition('field_vara_egna_product', true );
-    $nids = $query->execute();
-
-
+    ->condition('status', 1)->pager(2)->sort('created','DESC')->condition('type', 'Project', '=')->condition('field_vara_egna_product', true );
+    $nids1 = $query->execute();
+    $query = \Drupal::entityQuery('node')
+    ->condition('status', 1)->pager(2)->sort('created','DESC')->condition('type', 'Product', '=');
+    $nids2 = $query->execute();
+    $nids = $nids1 + $nids2;
     # -------------------
     $node_storage = \Drupal::entityManager()->getStorage('node');    
     $nodes = $node_storage->loadMultiple($nids);    
