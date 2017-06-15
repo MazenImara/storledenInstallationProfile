@@ -1,12 +1,12 @@
 
-
+{#
 <style type="text/css">
 
 #screenText{
 	background-image:url("{{ node.imgurl }}");
 }
 </style>
-
+#}
 
 
 
@@ -21,7 +21,7 @@
                 <div class="item active">
 
                     <!-- Slide Background -->
-                    <div id="screenText" ></div>
+                    <div id="screenText" ><img src="{{ node.imgurl }}"></div>
                     <div class="bs-slider-overlay"></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
@@ -421,7 +421,7 @@
     }
 
 }
-@media  (max-width: 480px) {
+@media  (max-width: 960px) {
     .slide-text {
         padding: 10px 30px;
     }
@@ -449,4 +449,88 @@
 
 }
 
+@media  (max-width: 586px) {
+    .slide-text {
+        padding: 10px 30px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .slide-text > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .slide-text > a.btn-default, 
+    .slide-text > a.btn-primary {
+        font-size: 10px;
+        line-height: 10px;
+        margin-right: 10px;
+        text-align: center;
+        padding: 10px 15px;
+            margin-top: 16px;
+    }
+    .indicators-line > .carousel-indicators{
+        display: none;
+    }
+
+}
+@media  (max-width: 474px) {
+    .slide-text {
+        padding: 10px 30px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .slide-text > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .slide-text > a.btn-default, 
+    .slide-text > a.btn-primary {
+    font-size: 9px;
+    line-height: 0px;
+    margin-right: 1px;
+    text-align: center;
+    padding: 9px 9px;
+    margin-top: 11px;
+    }
+    .indicators-line > .carousel-indicators{
+        display: none;
+    }
+
+}
+@media  (max-width: 474px) {
+    .slide-text {
+        padding: 10px 30px;
+    }
+    .slide-text h1 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    .slide-text > p {
+        font-size: 12px;
+        line-height: 18px;
+        margin-bottom: 10px;
+    }
+    .slide-text > a.btn-default, 
+    .slide-text > a.btn-primary {
+    font-size: 6px;
+    line-height: 0px;
+    margin-right: 0px;
+    text-align: center;
+    padding: 8px 8px;
+    margin-top: 4px;
+    }
+    .indicators-line > .carousel-indicators{
+        display: none;
+    }
+
+}
 </style>
