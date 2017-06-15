@@ -292,32 +292,43 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   background-color: #343434;
   color: white;
   font-size: 10px;
+  height: 200px;
 }
-/* line 6, ../sass/partials/_footer.scss */
+/* line 7, ../sass/partials/_footer.scss */
 .region-footer img {
   max-width: 88%;
+  margin-top: 35px;
 }
-/* line 9, ../sass/partials/_footer.scss */
+/* line 11, ../sass/partials/_footer.scss */
 .region-footer .social {
   text-align: center;
 }
-/* line 11, ../sass/partials/_footer.scss */
+/* line 13, ../sass/partials/_footer.scss */
 .region-footer .social img {
   margin-top: 5%;
   margin-left: 10%;
 }
-/* line 17, ../sass/partials/_footer.scss */
+/* line 19, ../sass/partials/_footer.scss */
+.region-footer .field__label, .region-footer .social-title {
+  font-size: 20px;
+}
+/* line 23, ../sass/partials/_footer.scss */
+.region-footer .field__item {
+  font-size: 16px;
+}
+/* line 27, ../sass/partials/_footer.scss */
 .region-footer .field {
   padding: 5px;
   width: 150px;
-  margin-top: 10px;
+  margin-top: 3%;
   height: 100px;
 }
-/* line 25, ../sass/partials/_footer.scss */
+/* line 35, ../sass/partials/_footer.scss */
 .region-footer .content {
   padding: 0;
   margin: 0;
   list-style: none;
+  background-color: #343434;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -326,8 +337,12 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
+/* line 49, ../sass/partials/_footer.scss */
+.region-footer .social-title {
+  margin-bottom: 10%;
+}
 
-/* line 46, ../sass/partials/_footer.scss */
+/* line 58, ../sass/partials/_footer.scss */
 .flex-container {
   padding: 0;
   margin: 0;
@@ -341,10 +356,22 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   justify-content: space-around;
 }
 
-/* line 61, ../sass/partials/_footer.scss */
+/* line 73, ../sass/partials/_footer.scss */
 .flex-item {
   padding: 5px;
   width: 150px;
   margin-top: 10px;
   height: 100px;
+}
+
+@media screen and (max-width: 600px) {
+  /* line 84, ../sass/partials/_footer.scss */
+  .region-footer .field {
+    margin-top: 110px;
+  }
+  /* line 87, ../sass/partials/_footer.scss */
+  .region-footer .field--name-field-footer-logo {
+    position: absolute;
+    margin-top: 0;
+  }
 }
