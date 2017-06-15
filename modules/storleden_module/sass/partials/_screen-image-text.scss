@@ -1,5 +1,5 @@
 .bs-slider {
-    max-height: none;
+    
     margin: -10px 0px -10px 0px;
 }
 #screenText{
@@ -57,47 +57,13 @@
     }
 
 
-@media screen and (max-width: 605px) {
-    #block-screenimgtext{
-    position: absolute;
-    left: 31%;
-    top: 47%;    
-    width: 40%;
-    font-size: 13px;
-    color: white;
-    text-align: center;
-    
-    }
-}
-@media screen and (max-width: 460px) {
-    #block-screenimgtext{
-    position: absolute;
-    left: 31%;
-    top: 36%;
-    width: 40%;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    
-    }
-}
 
-@media screen and (max-width: 377px) {
-    #block-screenimgtext{
-        position: absolute;
-    left: 31%;
-    top: 24%;
-    width: 40%;
-    font-size: 10px;
-    color: white;
-    text-align: center;
-    
-    }
-}
+
+
 
 @media screen and (min-height: 600px) {
   #screenText{
-        height: 631px;
+        height: 655px;
     }
 
 
@@ -105,7 +71,7 @@
 
 @media screen and (min-height: 700px) {
   #screenText{
-        height: 768px;
+        height: 730px;
     }
 }
 
@@ -139,18 +105,17 @@
 
 }
 
-@media screen and (min-height: 1080px) {
+@media screen and (min-height: 1070px) {
   #screenText{
         height: 1080px;
     }
     
 
 }
-@media screen and (min-height: 1200px) {
+@media screen and (min-height: 1100px) {
   #screenText{
         height: 1222px;
-    }
-    
+    }   
 
 }
 
