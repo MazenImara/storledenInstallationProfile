@@ -154,7 +154,7 @@ class screenImageTextBlock extends BlockBase {
     $form['photo'] = array(
       '#title' => t('Local Computer Image'),
       '#type' => 'managed_file',
-      '#description' => t('The uploaded image will be displayed on this page using the image style chosen below.'),
+      '#description' => t('The uploaded image will be displayed on screen image.'),
       '#default_value' => isset($config['photo']) ? $config['photo'] : '',
       '#upload_location' => 'public://images/',
       '#required' => FALSE,
@@ -163,18 +163,21 @@ class screenImageTextBlock extends BlockBase {
 
     $form['link1'] = array(
       '#type' => 'textfield',
+      '#description' => t('Type the title then comma then node ex: title , /nod/22'),
       '#title' => $this->t('link 1'),
       '#default_value' => isset($config['link1']) ? $config['link1'] : '',
     );    
 
     $form['link2'] = array(
       '#type' => 'textfield',
+      '#description' => t('Type the title then comma then node ex: title , /nod/22'),
       '#title' => $this->t('link 2'),
       '#default_value' => isset($config['link2']) ? $config['link2'] : '',
     );    
 
     $form['link3'] = array(
       '#type' => 'textfield',
+      '#description' => t('Type the title then comma then node ex: title , /nod/22'),
       '#title' => $this->t('link 3'),
       '#default_value' => isset($config['link3']) ? $config['link3'] : '',
     );    
@@ -182,11 +185,13 @@ class screenImageTextBlock extends BlockBase {
     // end img
     $form['link4'] = array(
       '#type' => 'textfield',
+      '#description' => t('Type the title then comma then node ex: title , /nod/22'),
       '#title' => $this->t('link 4'),
       '#default_value' => isset($config['link4']) ? $config['link4'] : '',
     );    
     $form['link5'] = array(
       '#type' => 'textfield',
+      '#description' => t('Type the title then comma then node ex: title , /nod/22'),
       '#title' => $this->t('link 5'),
       '#default_value' => isset($config['link5']) ? $config['link5'] : '',
     );    
