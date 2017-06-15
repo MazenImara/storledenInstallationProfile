@@ -285,40 +285,41 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   z-index: 99999;
   font-size: 40px;
   right: 15px;
+  display: none;
 }
 
 @media screen and (min-height: 600px) {
-  /* line 127, ../sass/partials/_node-page.scss */
+  /* line 128, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 500px;
   }
 }
 @media screen and (min-height: 700px) {
-  /* line 135, ../sass/partials/_node-page.scss */
+  /* line 136, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (max-height: 700px) and (max-width: 360px) {
-  /* line 141, ../sass/partials/_node-page.scss */
+  /* line 142, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (min-height: 900px) {
-  /* line 147, ../sass/partials/_node-page.scss */
+  /* line 148, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 800px;
   }
 }
 @media screen and (min-height: 1070px) {
-  /* line 154, ../sass/partials/_node-page.scss */
+  /* line 155, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1000px;
   }
 }
 @media screen and (min-height: 1100px) {
-  /* line 159, ../sass/partials/_node-page.scss */
+  /* line 160, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1050px;
   }
