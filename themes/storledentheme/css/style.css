@@ -21,7 +21,7 @@ header nav, #header nav {
 header .meny-stang, #header .meny-stang {
   font-size: 178%;
   float: right;
-  margin-top: 4%;
+  margin-top: 2%;
 }
 /* line 28, ../sass/partials/_header.scss */
 header .site-branding, #header .site-branding {

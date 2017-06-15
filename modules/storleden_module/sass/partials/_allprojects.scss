@@ -18,11 +18,12 @@
 .filterDiv.btn-group{
     display: table;
     margin: auto;
+    background-color: rgba(0, 195, 255, 0.22);
 }
 
 .mybtn.btn-default, .label2.btn-default {
     padding: 6px 10px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 0;
     color: #ffffff;
     background-color: #00c3ff;
@@ -37,7 +38,7 @@
 
 .label1.btn-default{
     padding: 6px 14px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 0;
     color: #ffffff;
     background-color: black;
@@ -48,7 +49,7 @@
 }
 .label1.btn-default:hover, .label1.btn-default:focus, .label1.btn-default:active, .label1.btn-default.active, .open > .label1.btn-default.dropdown-toggle {
     padding: 6px 14px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 0;
     color: #ffffff;
     background-color: black;
@@ -58,7 +59,7 @@
 
 .label2.btn-default:hover, .label2.btn-default:focus, .label2.btn-default:active, .label2.btn-default.active, .open > .label2.btn-default.dropdown-toggle {
     padding: 6px 10px;
-    margin: 10px 0px 20px 0px;
+    margin: 10px 0px 10px 0px;
     border-radius: 0;
     color: #ffffff;
     background-color: #00c3ff;
@@ -68,8 +69,8 @@
 .label2{
     height: 39px;
     span{
-        font-size: 43px;
-        margin: -9px 4px 0px -23px;
+        font-size: 42.2px;
+        margin: -9.2px 4px 0px -23px;
         color: black;
     }
 
