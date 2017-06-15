@@ -82,16 +82,7 @@ p{
 	}
 }
 
-.top.glyphicon{
-	
-    position: fixed;
-    color: #00c7fc;
-    margin-top: 41%;
-    z-index: 99999;
-    font-size: 40px;
-    right: 15px;
 
-}
 
 button:hover{
     background-color: #34adce;        
@@ -119,3 +110,53 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
     border-bottom-style: none;
 }
 
+
+
+.top.glyphicon{
+	
+    position: fixed;
+    color: #00c7fc;
+    margin-top: 41%;
+    z-index: 99999;
+    font-size: 40px;
+    right: 15px;
+
+}
+
+@media screen and (min-height: 600px) {
+  .top.glyphicon{
+    	margin-top: 500px;    
+	}
+
+
+}
+
+@media screen and (min-height: 700px) {
+  .top.glyphicon{
+    	margin-top: 600px;    
+	}
+}
+
+@media screen and (max-height: 700px) and (max-width: 360px) {
+  .top.glyphicon{
+    	margin-top: 600px;    
+	}
+}
+
+@media screen and (min-height: 900px) {
+  .top.glyphicon{
+    	margin-top: 800px;    
+	}
+
+}
+
+@media screen and (min-height: 1070px) {
+  .top.glyphicon{
+    	margin-top: 1000px;    
+	}
+}
+@media screen and (min-height: 1100px) {
+  .top.glyphicon{
+    	margin-top: 1050px;    
+	}
+}

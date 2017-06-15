@@ -250,7 +250,34 @@ p {
   margin-top: 3px;
 }
 
-/* line 85, ../sass/partials/_node-page.scss */
+/* line 87, ../sass/partials/_node-page.scss */
+button:hover {
+  background-color: #34adce;
+  border-color: #34adce;
+  transition: 1s;
+}
+
+/* line 96, ../sass/partials/_node-page.scss */
+.node-ingress {
+  width: 50%;
+  display: table;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+/* line 103, ../sass/partials/_node-page.scss */
+a, a.link {
+  text-decoration: none;
+  border-bottom: none;
+}
+
+/* line 108, ../sass/partials/_node-page.scss */
+a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
+  text-decoration: none;
+  border-bottom-style: none;
+}
+
+/* line 115, ../sass/partials/_node-page.scss */
 .top.glyphicon {
   position: fixed;
   color: #00c7fc;
@@ -260,33 +287,42 @@ p {
   right: 15px;
 }
 
-/* line 96, ../sass/partials/_node-page.scss */
-button:hover {
-  background-color: #34adce;
-  border-color: #34adce;
-  transition: 1s;
+@media screen and (min-height: 600px) {
+  /* line 127, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 500px;
+  }
 }
-
-/* line 105, ../sass/partials/_node-page.scss */
-.node-ingress {
-  width: 50%;
-  display: table;
-  margin: auto;
-  text-transform: uppercase;
+@media screen and (min-height: 700px) {
+  /* line 135, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 600px;
+  }
 }
-
-/* line 112, ../sass/partials/_node-page.scss */
-a, a.link {
-  text-decoration: none;
-  border-bottom: none;
+@media screen and (max-height: 700px) and (max-width: 360px) {
+  /* line 141, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 600px;
+  }
 }
-
-/* line 117, ../sass/partials/_node-page.scss */
-a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
-  text-decoration: none;
-  border-bottom-style: none;
+@media screen and (min-height: 900px) {
+  /* line 147, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 800px;
+  }
 }
-
+@media screen and (min-height: 1070px) {
+  /* line 154, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 1000px;
+  }
+}
+@media screen and (min-height: 1100px) {
+  /* line 159, ../sass/partials/_node-page.scss */
+  .top.glyphicon {
+    margin-top: 1050px;
+  }
+}
 /* line 1, ../sass/partials/_footer.scss */
 .region-footer {
   background-color: #343434;
