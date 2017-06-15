@@ -40,9 +40,13 @@
 }
 /* line 12, ../sass/partials/_latest-projects.scss */
 .projects .row {
-  margin: 25px 0px 25px 0px;
+  margin: 0px 0px 25px 0px;
 }
-/* line 17, ../sass/partials/_latest-projects.scss */
+/* line 15, ../sass/partials/_latest-projects.scss */
+.projects .col-sm-6 {
+  margin-top: 50px;
+}
+/* line 19, ../sass/partials/_latest-projects.scss */
 .projects .cat {
   position: absolute;
   margin: 12px;
@@ -52,7 +56,7 @@
   z-index: 3;
   color: white;
 }
-/* line 28, ../sass/partials/_latest-projects.scss */
+/* line 30, ../sass/partials/_latest-projects.scss */
 .projects .over {
   width: 300px;
   height: 300px;
@@ -64,28 +68,28 @@
   padding: 15px;
   display: none;
 }
-/* line 41, ../sass/partials/_latest-projects.scss */
+/* line 43, ../sass/partials/_latest-projects.scss */
 .projects .outer {
   display: table;
   margin: auto;
   width: 300px;
   height: 300px;
 }
-/* line 49, ../sass/partials/_latest-projects.scss */
+/* line 51, ../sass/partials/_latest-projects.scss */
 .projects .over-title {
   margin-top: 60px;
   font-weight: 900;
 }
-/* line 54, ../sass/partials/_latest-projects.scss */
+/* line 56, ../sass/partials/_latest-projects.scss */
 .projects .ingress {
   margin-top: 36px;
 }
-/* line 58, ../sass/partials/_latest-projects.scss */
+/* line 60, ../sass/partials/_latest-projects.scss */
 .projects button {
   margin: 47px 0px 32px 0px;
   background-color: #00c7fc;
 }
-/* line 63, ../sass/partials/_latest-projects.scss */
+/* line 65, ../sass/partials/_latest-projects.scss */
 .projects button:hover {
   margin: 47px 0px 32px 0px;
   background-color: #34adce;
@@ -665,11 +669,11 @@ hr {
 .tjanster .tjanst h4 {
   font-size: 20px;
 }
-/* line 28, ../sass/partials/_tjanster.scss */
-.tjanster .row {
+/* line 31, ../sass/partials/_tjanster.scss */
+.tjanster .col-sm-4, .tjanster .col-sm-3 {
   margin-top: 50px;
 }
-/* line 31, ../sass/partials/_tjanster.scss */
+/* line 34, ../sass/partials/_tjanster.scss */
 .tjanster .tjanst-ingress {
   font-size: 16px;
   text-align: center;
@@ -678,13 +682,13 @@ hr {
   margin: auto;
 }
 
-/* line 40, ../sass/partials/_tjanster.scss */
+/* line 43, ../sass/partials/_tjanster.scss */
 #tjanster {
   padding: 20px;
   text-align: center;
   background: radial-gradient(circle, rgba(255, 254, 254, 0), rgba(189, 189, 189, 0.5), #a0a0a0);
 }
-/* line 45, ../sass/partials/_tjanster.scss */
+/* line 48, ../sass/partials/_tjanster.scss */
 #tjanster hr {
   width: 197px;
   margin-top: 0px;
