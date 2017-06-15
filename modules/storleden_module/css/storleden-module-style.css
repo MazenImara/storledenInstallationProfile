@@ -772,11 +772,19 @@ hr {
 }
 
 /* line 2, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test h6 {
+  line-height: 20px;
+}
+/* line 5, ../sass/partials/_kontakt-for-test.scss */
 .kontakt-for-test .submit-btn {
   display: table;
   margin: auto;
 }
-/* line 5, ../sass/partials/_kontakt-for-test.scss */
+/* line 9, ../sass/partials/_kontakt-for-test.scss */
+.kontakt-for-test .submit-btn h6 {
+  line-height: 20px;
+}
+/* line 12, ../sass/partials/_kontakt-for-test.scss */
 .kontakt-for-test .submit-btn input {
   background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
   color: white;
@@ -784,17 +792,17 @@ hr {
   height: 41px;
   border-radius: 20px;
 }
-/* line 12, ../sass/partials/_kontakt-for-test.scss */
+/* line 19, ../sass/partials/_kontakt-for-test.scss */
 .kontakt-for-test .submit-btn input:hover {
   background-color: #34adce;
   border-color: #34adce;
   transition: 1s;
 }
-/* line 17, ../sass/partials/_kontakt-for-test.scss */
+/* line 24, ../sass/partials/_kontakt-for-test.scss */
 .kontakt-for-test .submit-btn input.form-submit:hover, .kontakt-for-test .submit-btn input.form-submit:focus {
   background: #34adce;
 }
-/* line 23, ../sass/partials/_kontakt-for-test.scss */
+/* line 30, ../sass/partials/_kontakt-for-test.scss */
 .kontakt-for-test input, .kontakt-for-test input:focus {
   border: none;
   border-bottom: 1px solid #ccc;
