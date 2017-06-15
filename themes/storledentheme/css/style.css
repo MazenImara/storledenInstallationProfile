@@ -356,7 +356,7 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   justify-content: space-around;
 }
 
-/* line 73, ../sass/partials/_footer.scss */
+/* line 74, ../sass/partials/_footer.scss */
 .flex-item {
   padding: 5px;
   width: 150px;
@@ -364,12 +364,16 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   height: 100px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   /* line 84, ../sass/partials/_footer.scss */
+  .region-footer {
+    height: 258px;
+  }
+  /* line 87, ../sass/partials/_footer.scss */
   .region-footer .field {
     margin-top: 110px;
   }
-  /* line 87, ../sass/partials/_footer.scss */
+  /* line 90, ../sass/partials/_footer.scss */
   .region-footer .field--name-field-footer-logo {
     position: absolute;
     margin-top: 0;

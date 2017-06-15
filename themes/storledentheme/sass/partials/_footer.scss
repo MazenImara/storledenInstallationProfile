@@ -59,6 +59,7 @@
   padding: 0;
   margin: 0;
   list-style: none;
+
   
   display: -webkit-box;
   display: -moz-box;
@@ -79,8 +80,10 @@
 }
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   .region-footer{
+    height: 258px;
+    
     .field {
       margin-top: 110px;
     }
