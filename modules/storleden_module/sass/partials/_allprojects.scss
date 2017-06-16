@@ -1,4 +1,5 @@
 .allprojects{
+    
     img{
         width: 250px;
         
@@ -109,3 +110,14 @@
 }
 
 
+.projects-title{
+        display: table;
+        margin:auto;      
+    
+        hr{
+                
+            margin-top: 0px;
+            //margin-bottom: 0px;
+            border-top: solid #0cf;
+        }        
+    }

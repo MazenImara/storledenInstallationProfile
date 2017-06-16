@@ -36,11 +36,18 @@ class screenImageTextBlock extends BlockBase {
 
 
 
-     if (isset($config['screen_text']) && !empty($config['screen_text'])) {
-          $text = $config['screen_text'];
+     if (isset($config['screen_text1']) && !empty($config['screen_text1'])) {
+          $text = $config['screen_text1'];
       }
       else {
         $text = $this->t('');
+      }
+
+      if (isset($config['screen_text2']) && !empty($config['screen_text2'])) {
+          $text2 = $config['screen_text2'];
+      }
+      else {
+        $text2 = $this->t('');
       }
       // fetch photo
 
@@ -69,7 +76,8 @@ class screenImageTextBlock extends BlockBase {
             '#theme' => 'screen_image_text',            
             '#node' => [
                           'screenTextTitle' => $textTitle ,
-                          'screenText' => $text ,
+                          'screenText1' => $text ,
+                          'screenText2' => $text2 ,
                           'imgurl' => $imgurl ,
                           'links' => $this->links($config),
             ],
@@ -143,12 +151,20 @@ class screenImageTextBlock extends BlockBase {
       '#description' => $this->t('First line as a title for the midile text '),
       '#default_value' => isset($config['screen_text_title']) ? $config['screen_text_title'] : '',
     );
-    $form['screen_text'] = array(
+    $form['screen_text1'] = array(
       '#type' => 'textfield',
-      '#title' => $this->t('Screen Text'),
+      '#title' => $this->t('Screen Text 1'),
       '#description' => $this->t('Type the text that you want in the midile'),
-      '#default_value' => isset($config['screen_text']) ? $config['screen_text'] : '',
+      '#default_value' => isset($config['screen_text1']) ? $config['screen_text1'] : '',
     );
+
+    $form['screen_text2'] = array(
+      '#type' => 'textfield',
+      '#title' => $this->t('Screen Text 2'),
+      '#description' => $this->t('Type the text that you want in the midile'),
+      '#default_value' => isset($config['screen_text2']) ? $config['screen_text2'] : '',
+    );
+
     // upload imag
 
     $form['photo'] = array(
@@ -207,7 +223,8 @@ class screenImageTextBlock extends BlockBase {
     parent::blockSubmit($form, $form_state);
     $values = $form_state->getValues();
     $this->configuration['screen_text_title'] = $values['screen_text_title'];
-    $this->configuration['screen_text'] = $values['screen_text'];
+    $this->configuration['screen_text1'] = $values['screen_text1'];
+    $this->configuration['screen_text2'] = $values['screen_text2'];
     $this->setConfigurationValue('photo', $form_state->getValue('photo'));
     $this->configuration['link1'] = $values['link1'];
     $this->configuration['link2'] = $values['link2'];

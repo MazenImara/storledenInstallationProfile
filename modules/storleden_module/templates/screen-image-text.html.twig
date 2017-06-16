@@ -17,16 +17,17 @@
            
 
             <!-- Wrapper For Slides -->
-            <div class="carousel-inner" role="listbox">
+            <div class="carousel-inner carousel-zoom" role="listbox">
                 <div class="item active">
 
                     <!-- Slide Background -->
-                    <div id="screenText" ><img src="{{ node.imgurl }}"></div>
+                    <div id="screenText" ><img class="img-responsive" src="{{ node.imgurl }}"></div>
                     <div class="bs-slider-overlay"></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
                         <h1 data-animation="animated flipInX">{{ node.screenTextTitle }}</h1>
-                        <p data-animation="animated lightSpeedIn">{{ node.screenText }}</p>
+                        <p data-animation="animated lightSpeedIn">{{ node.screenText1 }}</p>
+                        <p data-animation="animated slideInLeft">{{ node.screenText1 }}</p>
 
 
                         {% set a = true %}
@@ -381,7 +382,11 @@
 
 
 
-
+.slide-text > p {
+    
+    font-size: 40px ;
+    font-family: raleway ;
+}
 
 
 /*------------------------------------------------------*/
@@ -390,13 +395,13 @@
 
 @media (max-width: 991px) {
     .slide-text h1 {
-        font-size: 40px;
+        font-size: 50px;
         line-height: 50px;
         margin-bottom: 20px;
     }
     .slide-text > p {
 
-        font-size: 18px;
+        font-size: 30px;
     }
 }
 
@@ -426,12 +431,12 @@
         padding: 10px 30px;
     }
     .slide-text h1 {
-        font-size: 20px;
+        font-size: 35px;
         line-height: 25px;
-        margin-bottom: 5px;
+        margin-bottom: 20px;
     }
     .slide-text > p {
-        font-size: 12px;
+        font-size: 25px;
         line-height: 18px;
         margin-bottom: 10px;
     }
@@ -533,4 +538,7 @@
     }
 
 }
+
+
+
 </style>
