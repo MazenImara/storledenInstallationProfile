@@ -19,7 +19,7 @@
 	    			<div class="col-sm-4">
 		    		
 		    		</div> 
-			    	<div class="col-sm-4">
+			    	<div class="col-sm-4 middle">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">
@@ -40,7 +40,7 @@
 				    <div class="col-sm-3">
 		    		
 		    		</div>
-					<div class="col-sm-3">
+					<div class="col-sm-3 left">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">
@@ -54,7 +54,7 @@
 		    			
 			    	</div>
 			    	{% set i = i + 1 %}
-			    	<div class="col-sm-3">
+			    	<div class="col-sm-3 right">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">
@@ -71,7 +71,7 @@
 		    		
 		    		</div>
 				{% elseif rest >= 3 %}
-				    <div class="col-sm-4">
+				    <div class="col-sm-4 left">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">
@@ -84,7 +84,7 @@
 			    		</div>
 			    	</div>
 			    	{% set i = i + 1 %}
-			    	<div class="col-sm-4">
+			    	<div class="col-sm-4 middle">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">
@@ -97,7 +97,7 @@
 			    		</div>	
 			    	</div>
 			    	{% set i = i + 1 %}
-			    	<div class="col-sm-4">
+			    	<div class="col-sm-4 right">
 			    		<div class="tjanst">
 			    			<a href="node/{{ nodes[i].id }}">
 					    		<img src="{{ nodes[i].img }}">

@@ -66,10 +66,15 @@ jQuery(document).ready(function($) {
     })
 
     $('.effect-title').css('display', 'none');
+    $('.left').css('display', 'none');
+    $('.right').css('display', 'none');
+    $('.middle').css('display', 'none');
 
     $('.block').waypoint(function (argument) {
         $(this).find('.effect-title').show( "drop", {direction: "up"}, 1500 );
-
+        $(this).find('.left').show( "drop", {direction: "left"}, 1500 );
+        $(this).find('.right').show( "drop", {direction: "right"}, 1500 );
+        $(this).find('.middle').show( "fade", {direction: "right"}, 1500 );
     },{offset: '75%'});
     
     
