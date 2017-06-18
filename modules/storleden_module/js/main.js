@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 
     // for projects over 
     $('.outer').hover(function () {
-        $(this).find('.over').toggle( "clip" );
+        $(this).find('.over').toggle( "blind", {direction: "left"}, 1000 );
         
     })
     $('.outer-img').hover(function () {

@@ -25,8 +25,8 @@
 	    			<div class="col-sm-4">
 		    		
 		    		</div> 
-			    	<div class="col-sm-4">
-					    <div class="person">
+			    	<div class="col-sm-4 mh" >
+					    <div class="person middle ">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	
@@ -72,8 +72,8 @@
 				    <div class="col-sm-3">
 		    		
 		    		</div>
-					<div class="col-sm-3">
-					    <div class="person">
+					<div class="col-sm-3 mh" >
+					    <div class="person left">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	
@@ -113,7 +113,7 @@
 			    	</div>
 			    	{% set i = i + 1 %}
 			    	<div class="col-sm-3">
-					    <div class="person">
+					    <div class="person right">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	
@@ -155,8 +155,8 @@
 		    		
 		    		</div>
 				{% elseif rest >= 3 %}
-				    <div class="col-sm-4">
-					    <div class="person">
+				    <div class="col-sm-4 mh" >
+					    <div class="person left">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	
@@ -195,7 +195,7 @@
 			    	</div>
 			    	{% set i = i + 1 %}
 			    	<div class="col-sm-4">
-					    <div class="person">
+					    <div class="person middle">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	
@@ -234,7 +234,7 @@
 			    	</div>
 			    	{% set i = i + 1 %}
 			    	<div class="col-sm-4">
-					    <div class="person">
+					    <div class="person right">
 					    	<div class="outer-img">
 								{% if getPerson[i]['BildURL'] %}
 									<img src={{ getPerson[i]['BildURL'] }}></img>	

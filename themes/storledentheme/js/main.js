@@ -74,8 +74,8 @@ jQuery(document).ready(function($) {
         $(this).find('.effect-title').show( "drop", {direction: "up"}, 1500 );
         $(this).find('.left').show( "drop", {direction: "left"}, 1500 );
         $(this).find('.right').show( "drop", {direction: "right"}, 1500 );
-        $(this).find('.middle').show( "fade", {direction: "right"}, 1500 );
-    },{offset: '75%'});
+        $(this).find('.middle').show( "fade", {direction: "right"}, 2000 );
+    },{offset: '50%'});
     
     
 });
