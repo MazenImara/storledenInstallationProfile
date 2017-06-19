@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 
     // for projects over 
     $('.outer').hover(function () {
-        $(this).find('.over').toggle( "blind", {direction: "left"}, 1000 );
+        $(this).find('.over').toggle( "blind", {direction: "left"} );
         
     })
     $('.outer-img').hover(function () {
