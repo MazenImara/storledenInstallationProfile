@@ -776,7 +776,7 @@
 .staff .info {
   width: 200px;
   display: table;
-  margin: auto;
+  margin: 10px auto;
 }
 
 /* line 48, ../sass/partials/_person.scss */
