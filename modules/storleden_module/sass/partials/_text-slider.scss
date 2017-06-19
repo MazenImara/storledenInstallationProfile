@@ -1,5 +1,8 @@
 #textslider {
 	color:white;
+	.carousel-indicators {
+    left: 57%;
+	}
 	.carousel-inner{
 		height: 177px; 
 		background: radial-gradient(circle,rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.95), #000000);

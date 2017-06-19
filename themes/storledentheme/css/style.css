@@ -22,67 +22,68 @@ header .meny-stang, #header .meny-stang {
   font-size: 178%;
   float: right;
   margin-top: 2%;
+  cursor: default;
 }
-/* line 28, ../sass/partials/_header.scss */
+/* line 29, ../sass/partials/_header.scss */
 header .site-branding, #header .site-branding {
   padding-top: 22px;
   margin-left: 35px;
 }
-/* line 31, ../sass/partials/_header.scss */
+/* line 32, ../sass/partials/_header.scss */
 header .site-branding img, #header .site-branding img {
   width: 69%;
   height: auto;
   background-size: 100% auto;
 }
-/* line 38, ../sass/partials/_header.scss */
+/* line 39, ../sass/partials/_header.scss */
 header hr, #header hr {
   border-top: 1px solid white;
 }
-/* line 42, ../sass/partials/_header.scss */
+/* line 43, ../sass/partials/_header.scss */
 header a, #header a {
   display: block;
   color: white;
   font-family: raleway;
   font-size: 24px;
 }
-/* line 51, ../sass/partials/_header.scss */
+/* line 52, ../sass/partials/_header.scss */
 header li ul a, #header li ul a {
   font-size: 20px;
 }
-/* line 56, ../sass/partials/_header.scss */
+/* line 57, ../sass/partials/_header.scss */
 header a:hover, #header a:hover {
   text-decoration: none;
   color: #017794;
 }
-/* line 63, ../sass/partials/_header.scss */
+/* line 64, ../sass/partials/_header.scss */
 header li .glyphicon-chevron-right, #header li .glyphicon-chevron-right {
   font-size: 18px;
   margin-right: 6px;
 }
-/* line 68, ../sass/partials/_header.scss */
+/* line 69, ../sass/partials/_header.scss */
 header .menu-item--expanded, #header .menu-item--expanded {
   list-style-image: none;
   list-style-type: none;
 }
-/* line 72, ../sass/partials/_header.scss */
+/* line 73, ../sass/partials/_header.scss */
 header .menu-item--expanded ul, #header .menu-item--expanded ul {
   margin-left: 7px;
   margin-bottom: 0px;
 }
-/* line 75, ../sass/partials/_header.scss */
+/* line 76, ../sass/partials/_header.scss */
 header .menu-item--expanded ul span, #header .menu-item--expanded ul span {
   display: none;
 }
-/* line 82, ../sass/partials/_header.scss */
+/* line 83, ../sass/partials/_header.scss */
 header .storledenAB img, #header .storledenAB img {
   margin-top: 48px;
 }
-/* line 87, ../sass/partials/_header.scss */
+/* line 88, ../sass/partials/_header.scss */
 header .site-branding__text, #header .site-branding__text {
   display: none;
 }
 
-/* line 95, ../sass/partials/_header.scss */
+/* line 96, ../sass/partials/_header.scss */
 .front-header {
   background-color: transparent;
   z-index: 99;
@@ -90,17 +91,17 @@ header .site-branding__text, #header .site-branding__text {
   width: 100%;
 }
 
-/* line 102, ../sass/partials/_header.scss */
+/* line 103, ../sass/partials/_header.scss */
 .headerColor {
   background-color: #00c7fc;
 }
 
-/* line 106, ../sass/partials/_header.scss */
+/* line 107, ../sass/partials/_header.scss */
 .headerColorScroll {
   background-color: #00c7fc;
 }
 
-/* line 111, ../sass/partials/_header.scss */
+/* line 112, ../sass/partials/_header.scss */
 .flex-container-heder {
   padding: 0;
   margin: 0;
@@ -114,7 +115,7 @@ header .site-branding__text, #header .site-branding__text {
   justify-content: space-around;
 }
 
-/* line 126, ../sass/partials/_header.scss */
+/* line 127, ../sass/partials/_header.scss */
 .flex-item-header {
   /* background: tomato; */
   padding: 5px;
@@ -123,7 +124,7 @@ header .site-branding__text, #header .site-branding__text {
   margin-top: 10px;
 }
 
-/* line 136, ../sass/partials/_header.scss */
+/* line 137, ../sass/partials/_header.scss */
 .flex-container-nav {
   padding: 0;
   margin: 0;
@@ -137,7 +138,7 @@ header .site-branding__text, #header .site-branding__text {
   justify-content: space-around;
 }
 
-/* line 151, ../sass/partials/_header.scss */
+/* line 152, ../sass/partials/_header.scss */
 .flex-item-nav {
   padding: 5px;
   width: 25%;
@@ -146,12 +147,12 @@ header .site-branding__text, #header .site-branding__text {
 }
 
 @media screen and (max-width: 700px) {
-  /* line 164, ../sass/partials/_header.scss */
+  /* line 165, ../sass/partials/_header.scss */
   .flex-item-nav {
     min-width: 360px;
   }
 
-  /* line 168, ../sass/partials/_header.scss */
+  /* line 169, ../sass/partials/_header.scss */
   header .storledenAB img, #header .storledenAB img {
     margin-top: -16px;
     max-width: 219px;
@@ -159,7 +160,7 @@ header .site-branding__text, #header .site-branding__text {
     margin-left: 12px;
   }
 
-  /* line 174, ../sass/partials/_header.scss */
+  /* line 175, ../sass/partials/_header.scss */
   header a, #header a {
     font-size: 20px;
   }
