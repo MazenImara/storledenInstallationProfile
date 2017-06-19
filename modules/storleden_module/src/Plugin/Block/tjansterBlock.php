@@ -57,7 +57,7 @@ class tjansterBlock extends BlockBase {
           'title' => $item->title->value , 
           'ingress' => $item->field_ingress->value, 
           'id' =>  $item->id(),
-          'img' => file_create_url($item->field_image->entity->getFileUri())         
+          'img' => file_create_url($item->field_icon->entity->getFileUri())         
           ]
         ) ;
 
