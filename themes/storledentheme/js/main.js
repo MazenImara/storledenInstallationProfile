@@ -64,7 +64,8 @@ jQuery(document).ready(function($) {
         scrollTop: $('#hem').offset().top
         }, 1000);
     })
-
+    $('.field--name-field-ingress').addClass('effect-title');
+    $('.field--name-field-image').addClass('left');
     $('.effect-title').css('display', 'none');
     $('.left').css('display', 'none');
     $('.right').css('display', 'none');
