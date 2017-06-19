@@ -62,6 +62,7 @@ class personBlock extends BlockBase {
     foreach ($nodes as $node) {
 
       $result['Namn'] = $node->title->value;
+      $result['info'] = $node->field_personlig_info->value;
 
 
 

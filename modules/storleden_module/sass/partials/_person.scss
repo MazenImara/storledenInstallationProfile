@@ -38,6 +38,11 @@
 
     margin-bottom: 25px;
 	}
+	.info{
+		width: 200px;
+	    display: table;
+	    margin: auto;
+	}
 }
 
 	.person-ingress{
@@ -58,18 +63,3 @@
 	    margin: auto;		
 	}
 
-/*
-@media screen and (max-width: 768px) {
-    .staff{
-		.row{
-			margin-top: 45px;
-			padding-left: 0px;
-		}
-    	.col-sm-4 {
-
-    		margin: 0px ;
-		}
-	}
-}
-
-*/
