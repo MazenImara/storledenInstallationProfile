@@ -29,7 +29,7 @@
 /* line 28, ../sass/partials/_global-for-module.scss */
 .title_arrow {
   display: block  !important;
-  margin: 5px auto !important;
+  margin: -1px auto !important;
   width: 50px !important;
 }
 
@@ -775,6 +775,7 @@
 /* line 24, ../sass/partials/_person.scss */
 .staff .title hr {
   margin-top: 0px;
+  margin-bottom: 0px;
   border-top: solid #0cf;
 }
 /* line 32, ../sass/partials/_person.scss */

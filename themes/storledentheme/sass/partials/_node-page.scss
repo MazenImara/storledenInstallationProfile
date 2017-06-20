@@ -32,8 +32,8 @@ p{
 		width: 99%;
 	}
 	img{
-		display: block;
-    	margin: 0 auto;
+	    display: block !important;
+	    margin: 0 auto !important;
     	width:50%;
     	margin-bottom: 25px;
 	}
@@ -74,9 +74,10 @@ p{
 .title{
 	display: table;
 	margin: 20px auto;
+	text-transform:uppercase;
 	hr{
 		
-	    
+	    margin-top: 0px;
 	    border-top: solid #0cf;
 	}
 }
@@ -127,6 +128,16 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
     right: 40px;
     display: none;
 
+}
+
+.title-arrow{
+	display: inline-block !important;
+    margin: 0px auto !important;
+    width: 50px !important;
+    margin-top: -20px !important;
+}
+hr{
+	margin-bottom: 0px !important;
 }
 
 @media screen and (min-height: 600px) {

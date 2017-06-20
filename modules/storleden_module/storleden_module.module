@@ -74,5 +74,5 @@ function storleden_module_theme($existing, $type, $theme, $path) {
 }
 
 function storleden_module_template_preprocess_default_variables_alter(&$variables) {
-  $variables['title_arrow'] ='/' . drupal_get_path('module', 'storleden_module') . '/images/icon/heading-arrow.png';
+  $variables['title_arrow'] ='/storleden/' . drupal_get_path('module', 'storleden_module') . '/images/icon/heading-arrow.png';
 }
