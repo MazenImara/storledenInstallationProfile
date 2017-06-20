@@ -232,7 +232,7 @@ p {
 }
 /* line 57, ../sass/partials/_node-page.scss */
 .page-title hr {
-  margin-top: 0px;
+  margin-top: 10px;
   border-top: solid #0cf;
 }
 
