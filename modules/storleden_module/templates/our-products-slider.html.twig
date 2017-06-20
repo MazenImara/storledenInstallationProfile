@@ -8,7 +8,7 @@
     <div id="ourproductsslider" class="carousel slide" data-ride="carousel">
   
         <!-- Indicators -->
-        <ol class="left carousel-indicators">
+        <ol class="carousel-indicators">
         {% for i in nodes %}
             <li data-target="#ourproductsslider" data-slide-to="{{ loop.index - 1}}" class="active"></li>
         {% endfor %}
