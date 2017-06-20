@@ -1,0 +1,25 @@
+uuid: 8f68de88-79dc-43dd-9d3d-6e4867af38db
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_add_to_slider_
+    - node.type.product
+_core:
+  default_config_hash: FEmSOYMK6mTezpqa4gKEIIF3FhFgOn60QkZSAMcY0VA
+id: node.product.field_add_to_slider_
+field_name: field_add_to_slider_
+entity_type: node
+bundle: product
+label: 'Add to slider ?'
+description: 'Set it to add to the slider.'
+required: false
+translatable: false
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

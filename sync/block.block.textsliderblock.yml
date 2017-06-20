@@ -1,0 +1,22 @@
+uuid: 43e0048a-ca97-46c2-abca-93d74d3848e6
+langcode: sv
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: C3b8HqdSAX5pDaDTm-l0NU8Ck8VjQmIaF6FMbpgkaXU
+id: textsliderblock
+theme: storledentheme
+region: front_page
+weight: -7
+provider: null
+plugin: textsliderblocks
+settings:
+  id: textsliderblocks
+  label: 'Text Slider Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }

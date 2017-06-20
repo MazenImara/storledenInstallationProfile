@@ -1,0 +1,20 @@
+uuid: 82579914-4478-4767-9946-9968331c14be
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: vEFopXbIFxvdilVyFamVdF56YiVIiH2YXoFx6Y-Ppvc
+name: References
+type: references
+description: 'Storleden Referencer'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

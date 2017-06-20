@@ -1,0 +1,20 @@
+uuid: 2255bde8-3ec6-4502-bdbf-82ddb784e004
+langcode: sv
+status: false
+dependencies:
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: 1djZ130khGP9Ay4RRwHaQTihOKxldQAVV3Xe_c0JmDA
+id: storledentheme_local_actions
+theme: storledentheme
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  provider: core
+  label_display: '0'
+visibility: {  }

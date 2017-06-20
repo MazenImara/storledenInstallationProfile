@@ -1,0 +1,22 @@
+uuid: a216300c-0d47-42be-abae-37a42fece092
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven
+_core:
+  default_config_hash: YRY68JWkaUiGeZlWMv1nzeIgDm0ZZwXYgpqUpLFzwAY
+id: seven_content
+theme: seven
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Huvudsakligt sidinnehåll'
+  provider: system
+  label_display: '0'
+visibility: {  }

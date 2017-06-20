@@ -1,0 +1,25 @@
+uuid: 2162a2e3-efa9-4cdc-b9f4-855feb3bbbbb
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: haBG1WDFK7Hr-0l74oRF5x7_hi2JjOoQOYUks9QEgO4
+id: storledentheme_branding
+theme: storledentheme
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  provider: system
+  label_display: '0'
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

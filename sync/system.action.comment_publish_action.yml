@@ -1,0 +1,13 @@
+uuid: 9b6c1467-4835-45de-853f-0595532c950e
+langcode: sv
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: f6w_Pd30AyyDIoMkD4QpPMM2-I8FTEHICchFVOpjiCI
+id: comment_publish_action
+label: 'Publicera kommentarer'
+type: comment
+plugin: comment_publish_action
+configuration: {  }

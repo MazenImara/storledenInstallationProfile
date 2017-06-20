@@ -1,0 +1,21 @@
+uuid: 4e29306c-881c-467e-a4fe-e5df16b170b5
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ingress
+    - node.type.article
+_core:
+  default_config_hash: LZb2z9-dYyRNipJTZVr7BCmruHcgrJ17kSipBLD5-B4
+id: node.article.field_ingress
+field_name: field_ingress
+entity_type: node
+bundle: article
+label: Ingress
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string_long

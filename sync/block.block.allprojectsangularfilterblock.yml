@@ -1,0 +1,28 @@
+uuid: e243dba2-26d7-43f2-83d8-2757a80de995
+langcode: sv
+status: true
+dependencies:
+  module:
+    - storleden_module
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: ZwGuR0I6J8BURia7XfCfYRSyF7pQogB0pRNYRuTsuT8
+id: allprojectsangularfilterblock
+theme: storledentheme
+region: content
+weight: -3
+provider: null
+plugin: allprojectsangularfilters
+settings:
+  id: allprojectsangularfilters
+  label: 'All Projects Angular Filter Block'
+  provider: storleden_module
+  label_display: '0'
+visibility:
+  request_path:
+    id: request_path
+    pages: /allprojects
+    negate: false
+    context_mapping: {  }

@@ -1,0 +1,13 @@
+uuid: 05f51a0d-9f60-4781-8478-109087c545cb
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: U9HspszLxcw6pZmRacFa6yDbbheyMN-We4fPbrWWHGg
+id: node_save_action
+label: 'Spara innehåll'
+type: node
+plugin: node_save_action
+configuration: {  }

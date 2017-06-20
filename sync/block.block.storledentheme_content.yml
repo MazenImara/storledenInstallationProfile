@@ -1,0 +1,22 @@
+uuid: fc985816-0da2-40a2-969e-0e8f63ce04f2
+langcode: sv
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: _vZRv8Nq1xViyJScg6E2j5LPI4JQ7QYyZCnlbatnV6Y
+id: storledentheme_content
+theme: storledentheme
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Huvudsakligt sidinnehåll'
+  provider: system
+  label_display: '0'
+visibility: {  }

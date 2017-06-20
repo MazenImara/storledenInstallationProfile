@@ -1,0 +1,24 @@
+uuid: aa0143dd-b422-4ec2-9904-cc8d6aeb35ac
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.references
+  module:
+    - text
+_core:
+  default_config_hash: DhHnsEwyYraPJ7oNcRVv7fuPDIl19eo3EGrpTwLAitI
+id: node.references.body
+field_name: body
+entity_type: node
+bundle: references
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

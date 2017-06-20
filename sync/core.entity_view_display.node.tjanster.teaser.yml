@@ -1,0 +1,39 @@
+uuid: fc160964-cebe-4046-aea6-4709c65d2a8f
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.tjanster.body
+    - field.field.node.tjanster.field_add_to_slider_
+    - field.field.node.tjanster.field_image
+    - field.field.node.tjanster.field_ingress
+    - field.field.node.tjanster.field_weight
+    - node.type.tjanster
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: tGbS0JSawDmeVPxVbWPmTnd2cJ9M1o-4pV6qcmIBZYw
+id: node.tjanster.teaser
+targetEntityType: node
+bundle: tjanster
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_add_to_slider_: true
+  field_image: true
+  field_ingress: true
+  field_weight: true
+  langcode: true

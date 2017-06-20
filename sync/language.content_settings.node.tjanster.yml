@@ -1,0 +1,11 @@
+uuid: 025593b5-b5c5-458d-a066-ef428adf4e25
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.tjanster
+id: node.tjanster
+target_entity_type_id: node
+target_bundle: tjanster
+default_langcode: site_default
+language_alterable: false

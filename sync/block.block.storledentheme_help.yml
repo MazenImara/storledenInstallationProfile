@@ -1,0 +1,22 @@
+uuid: 3c8c249f-481a-4961-bebc-9f76ec61d890
+langcode: sv
+status: false
+dependencies:
+  module:
+    - help
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: u5cFp4eNVLy3_ZlgOWU39WRrSl_MQAxWeFyJSjuvTxk
+id: storledentheme_help
+theme: storledentheme
+region: content
+weight: -5
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Hjälp
+  provider: help
+  label_display: '0'
+visibility: {  }

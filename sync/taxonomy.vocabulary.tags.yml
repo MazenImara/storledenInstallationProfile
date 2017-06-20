@@ -1,0 +1,11 @@
+uuid: c0c02292-f983-45ca-955d-65fba33ea57f
+langcode: sv
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: lO5ziR5dVI1PpEeHZsSOfQ-Y7NWihSDKW8-MMf6uoms
+name: Etiketter
+vid: tags
+description: 'Använd etiketter för att gruppera artiklar med liknande ämnen till kategorier.'
+hierarchy: 0
+weight: 0

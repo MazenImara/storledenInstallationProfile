@@ -1,0 +1,22 @@
+uuid: 86a3f8a0-dfa5-4a88-9336-51a163fa3baa
+langcode: sv
+status: true
+dependencies:
+  module:
+    - storleden_module
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: FXV7CEChJj1ZCLz1WRd93gZBp-8iYpLBSFrvlyGpCu8
+id: personblock
+theme: storledentheme
+region: front_page
+weight: -3
+provider: null
+plugin: person_block
+settings:
+  id: person_block
+  label: 'Person Block'
+  provider: storleden_module
+  label_display: '0'
+visibility: {  }
