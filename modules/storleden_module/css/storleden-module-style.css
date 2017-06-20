@@ -818,9 +818,10 @@
   	border-color: red;*/
   display: flex;
   flex-flow: row wrap;
+  margin-top: 50px;
 }
 
-/* line 24, ../sass/partials/_references.scss */
+/* line 25, ../sass/partials/_references.scss */
 .referencesWrapper .aligner {
   /*border: solid;
   border-color: purple;*/
@@ -830,7 +831,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  /* line 33, ../sass/partials/_references.scss */
+  /* line 34, ../sass/partials/_references.scss */
   .referencesWrapper .aligner {
     /*	border: solid;
     	border-color: purple;*/
@@ -839,7 +840,7 @@
   }
 }
 @media only screen and (max-width: 400px) {
-  /* line 42, ../sass/partials/_references.scss */
+  /* line 43, ../sass/partials/_references.scss */
   .referencesWrapper .aligner {
     /*		border: solid;
     		border-color: purple;*/
@@ -848,7 +849,7 @@
   }
 }
 @media only screen and (max-width: 200px) {
-  /* line 50, ../sass/partials/_references.scss */
+  /* line 51, ../sass/partials/_references.scss */
   .referencesWrapper .aligner {
     /*	border: solid;
     	border-color: purple;*/
@@ -856,7 +857,7 @@
     padding: 1%;
   }
 }
-/* line 58, ../sass/partials/_references.scss */
+/* line 59, ../sass/partials/_references.scss */
 .referencesWrapper img {
   /*border:solid;
   border-color: blue;*/
