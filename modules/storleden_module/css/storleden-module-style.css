@@ -663,24 +663,28 @@
   border-top: solid #0cf;
 }
 
-/* line 4, ../sass/partials/_kontakt.scss */
+/* line 3, ../sass/partials/_kontakt.scss */
+.kontakt .Kontaktuppgifter {
+  margin-left: 14px;
+}
+/* line 6, ../sass/partials/_kontakt.scss */
 .kontakt .ingress {
   text-align: center;
   margin-bottom: 50px;
 }
-/* line 9, ../sass/partials/_kontakt.scss */
+/* line 11, ../sass/partials/_kontakt.scss */
 .kontakt input.form-text, .kontakt input.form-email, .kontakt input.form-text:focus {
   border: none;
   border-bottom: 1px solid #ccc;
   margin-right: 10%;
   outline: none;
 }
-/* line 16, ../sass/partials/_kontakt.scss */
+/* line 18, ../sass/partials/_kontakt.scss */
 .kontakt .submit-btn {
   display: table;
   margin: auto;
 }
-/* line 19, ../sass/partials/_kontakt.scss */
+/* line 21, ../sass/partials/_kontakt.scss */
 .kontakt .submit-btn input {
   background-image: linear-gradient(to bottom, #00c3ff, #00c3ff);
   color: white;
@@ -689,13 +693,13 @@
   border-radius: 20px;
   border-color: #00c3ff;
 }
-/* line 27, ../sass/partials/_kontakt.scss */
+/* line 29, ../sass/partials/_kontakt.scss */
 .kontakt .submit-btn input:hover {
   background-image: linear-gradient(to bottom, #3199c9, #3199c9);
   border-color: #3199c9;
   transition: 1s;
 }
-/* line 44, ../sass/partials/_kontakt.scss */
+/* line 46, ../sass/partials/_kontakt.scss */
 .kontakt .checkboxes .form-checkboxes .form-item, .kontakt .checkboxes .form-radios .form-item {
   margin-top: 0.4em;
   margin-bottom: 0.4em;
@@ -703,33 +707,33 @@
   margin-right: 50px;
 }
 
-/* line 56, ../sass/partials/_kontakt.scss */
+/* line 58, ../sass/partials/_kontakt.scss */
 .har-finns-vi {
   margin-top: 100px;
   text-align: center;
 }
-/* line 59, ../sass/partials/_kontakt.scss */
+/* line 61, ../sass/partials/_kontakt.scss */
 .har-finns-vi div {
   margin-top: 20px;
 }
-/* line 63, ../sass/partials/_kontakt.scss */
+/* line 65, ../sass/partials/_kontakt.scss */
 .har-finns-vi .adress {
   width: 137px;
   display: table;
   margin: auto;
 }
 
-/* line 72, ../sass/partials/_kontakt.scss */
+/* line 74, ../sass/partials/_kontakt.scss */
 .title {
   display: table;
   margin: auto;
 }
-/* line 75, ../sass/partials/_kontakt.scss */
+/* line 77, ../sass/partials/_kontakt.scss */
 .title hr {
   border-top: solid #0cf;
 }
 
-/* line 82, ../sass/partials/_kontakt.scss */
+/* line 84, ../sass/partials/_kontakt.scss */
 .jobba-hos-oss {
   margin-top: 100px;
 }
