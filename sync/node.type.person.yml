@@ -1,0 +1,22 @@
+uuid: f5ba40dc-091c-41a4-be38-ebc68fe2c438
+langcode: sv
+status: true
+dependencies:
+  enforced:
+    module:
+      - storleden_module
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+_core:
+  default_config_hash: 2SaxVJa3oAjZSwRD0RnBNU6km8NAkEUp2yRQUeK2MUk
+name: Person
+type: person
+description: 'Storleden  personal , används av en plugin för att sammanställa alla personer i en lista.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

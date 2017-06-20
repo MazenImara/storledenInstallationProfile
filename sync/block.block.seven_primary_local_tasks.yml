@@ -1,0 +1,22 @@
+uuid: 4dfc3e49-cf04-4160-bd0c-8be0d5204ce0
+langcode: sv
+status: true
+dependencies:
+  theme:
+    - seven
+_core:
+  default_config_hash: ddy1OsBbWxjwEI8VL1viD4I69qcLHOkul4BxbTqLBTs
+id: seven_primary_local_tasks
+theme: seven
+region: header
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primära flikar'
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: false
+visibility: {  }

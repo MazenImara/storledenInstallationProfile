@@ -1,0 +1,25 @@
+uuid: 9985eb51-ad3d-4477-9d0c-6e1520a2510b
+langcode: sv
+status: true
+dependencies:
+  enforced:
+    module:
+      - geolocation_demo
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: f9IrCTXEHpa0VDyUrKUKit_i3mAUdy6MP3BLyNW0WC4
+id: node.field_geolocation_demo_taxonomy
+field_name: field_geolocation_demo_taxonomy
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

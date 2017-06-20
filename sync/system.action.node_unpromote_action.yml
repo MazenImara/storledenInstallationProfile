@@ -1,0 +1,13 @@
+uuid: 9df6bae2-d10e-4c65-a4fb-df45667413d1
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: JBptjnfuOMtsdKygklXxoOgeOCTMtQxlkymjnnj-cC0
+id: node_unpromote_action
+label: 'Ta bort inlägg från startsidan'
+type: node
+plugin: node_unpromote_action
+configuration: {  }

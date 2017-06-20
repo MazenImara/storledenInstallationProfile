@@ -1,0 +1,11 @@
+uuid: dd96133c-0686-4d91-b160-9075c2d6b7d7
+langcode: sv
+status: true
+dependencies:
+  config:
+    - node.type.references
+id: node.references
+target_entity_type_id: node
+target_bundle: references
+default_langcode: site_default
+language_alterable: false

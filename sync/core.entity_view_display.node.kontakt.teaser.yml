@@ -1,0 +1,43 @@
+uuid: 02db4677-9481-4972-991d-eaf2165f693e
+langcode: sv
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.kontakt.body
+    - field.field.node.kontakt.field_column_1
+    - field.field.node.kontakt.field_column_2
+    - field.field.node.kontakt.field_ingress
+    - field.field.node.kontakt.field_map
+    - field.field.node.kontakt.field_title_2
+    - field.field.node.kontakt.field_title_3
+    - node.type.kontakt
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: 1N0llGUCmFDAg81_kYAE422MTPz7rXwHjQvBUsH3yxA
+id: node.kontakt.teaser
+targetEntityType: node
+bundle: kontakt
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden:
+  field_column_1: true
+  field_column_2: true
+  field_ingress: true
+  field_map: true
+  field_title_2: true
+  field_title_3: true
+  langcode: true

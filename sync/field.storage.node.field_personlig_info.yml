@@ -1,0 +1,19 @@
+uuid: bd883d55-97cf-4dc8-991e-205b5f901cf9
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+id: node.field_personlig_info
+field_name: field_personlig_info
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

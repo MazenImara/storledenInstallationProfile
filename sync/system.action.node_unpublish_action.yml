@@ -1,0 +1,13 @@
+uuid: 2d600197-95ac-4259-8737-9e6c15c83d84
+langcode: sv
+status: true
+dependencies:
+  module:
+    - node
+_core:
+  default_config_hash: gGQXiSspwGl0lyOS6w_HCPpvGAPDciqDNLFwWOydVtI
+id: node_unpublish_action
+label: 'Avpublicera inlägg'
+type: node
+plugin: node_unpublish_action
+configuration: {  }

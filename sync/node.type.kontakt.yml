@@ -1,0 +1,20 @@
+uuid: e3bf947b-2716-4688-8d72-73a2c4142faa
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: eK_AFokoag1s4c_7E75R0wDCrROmqtoUm6iGCAxdm5s
+name: 'Kontakt page'
+type: kontakt
+description: 'Storleden kontakt page.'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

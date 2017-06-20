@@ -1,0 +1,23 @@
+uuid: 88635480-e505-4c47-b72e-4b6cf38523d7
+langcode: sv
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_map
+    - node.type.kontakt
+  module:
+    - geolocation
+_core:
+  default_config_hash: 3HChIxZyZzKqyhNRytH-LPJwJwJc2hQfabH2UJGWa1M
+id: node.kontakt.field_map
+field_name: field_map
+entity_type: node
+bundle: kontakt
+label: Map
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: geolocation

@@ -1,0 +1,22 @@
+uuid: 671a5d93-452d-4470-9ca4-aff16e07f13a
+langcode: sv
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: _TrQ-y-CUJql1ai9asmh_2Xq2iuRRAKhLa7xJxXWmvI
+id: storledentheme_powered
+theme: storledentheme
+region: header
+weight: -8
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Drivs av Drupal'
+  provider: system
+  label_display: '0'
+visibility: {  }

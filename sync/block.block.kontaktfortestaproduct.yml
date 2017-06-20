@@ -1,0 +1,31 @@
+uuid: 46c731ea-6962-4c83-9069-42f304be24f4
+langcode: sv
+status: true
+dependencies:
+  module:
+    - ctools
+    - storleden_module
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: HRbkMyeoRJSC8j7rIGdPnyJrAfM9QMCYMDcEpUvLVC8
+id: kontaktfortestaproduct
+theme: storledentheme
+region: content
+weight: -6
+provider: null
+plugin: kontaktfortest
+settings:
+  id: kontaktfortest
+  label: 'Kontakt for test a product'
+  provider: storleden_module
+  label_display: '0'
+  form_ingress: 'ÄR DU INTRESERAD AV ATT TESTA? ÖNSKAR DU MER INFORMATION? KONTAKTA OSS!'
+visibility:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    bundles:
+      product: product
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'

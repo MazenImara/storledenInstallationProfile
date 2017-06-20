@@ -1,0 +1,14 @@
+uuid: 5f8e30c3-0b31-49ff-804a-aed91d924758
+name: Storleden
+mail: mazen.imara@gmail.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: sv
+default_langcode: sv
+_core:
+  default_config_hash: AyT9s8OUcclfALRE_imByOMgtZ19eOlqdF6zI3p7yqo

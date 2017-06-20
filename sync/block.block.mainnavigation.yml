@@ -1,0 +1,26 @@
+uuid: 9d34af5a-1d2d-4fa3-8052-1b7955b3170d
+langcode: sv
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - storledentheme
+_core:
+  default_config_hash: W7rPE85kiRFHCC5H1cMN6aJK1RZSljW9M1CBZhgL7ZY
+id: mainnavigation
+theme: storledentheme
+region: header
+weight: 1
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: Huvudmeny
+  provider: system
+  label_display: '0'
+  level: 1
+  depth: 0
+visibility: {  }

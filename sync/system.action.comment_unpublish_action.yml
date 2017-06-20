@@ -1,0 +1,13 @@
+uuid: e12caa60-3289-4404-aa80-19d65c8370a1
+langcode: sv
+status: true
+dependencies:
+  module:
+    - comment
+_core:
+  default_config_hash: MLin6S_PsJ7Oo480DxS46D46IM8tqFkkWOLyH7TGByI
+id: comment_unpublish_action
+label: 'Avpublicera kommentaren'
+type: comment
+plugin: comment_unpublish_action
+configuration: {  }

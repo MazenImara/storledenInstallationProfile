@@ -1,0 +1,20 @@
+uuid: 8d832c57-0526-40ec-86e1-87149edeb013
+langcode: sv
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+_core:
+  default_config_hash: BnCgYY4CRZYSEWJhzDyWt9lCuWiCi-VsihCAurjE2-0
+name: Project
+type: project
+description: 'Storleden Project'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false
