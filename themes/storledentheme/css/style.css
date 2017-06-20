@@ -228,42 +228,44 @@ p {
 /* line 54, ../sass/partials/_node-page.scss */
 .page-title {
   font-size: 35px;
-  display: inline-table;
+  text-align: center;
+  display: table;
+  margin: auto;
 }
-/* line 57, ../sass/partials/_node-page.scss */
+/* line 59, ../sass/partials/_node-page.scss */
 .page-title hr {
   margin-top: 10px;
   border-top: solid #0cf;
 }
 
-/* line 66, ../sass/partials/_node-page.scss */
+/* line 68, ../sass/partials/_node-page.scss */
 .node--type-tjanster img {
   width: 25%;
 }
 
-/* line 72, ../sass/partials/_node-page.scss */
+/* line 74, ../sass/partials/_node-page.scss */
 .title {
   display: table;
   margin: 20px auto;
 }
-/* line 75, ../sass/partials/_node-page.scss */
+/* line 77, ../sass/partials/_node-page.scss */
 .title hr {
   border-top: solid #0cf;
 }
 
-/* line 83, ../sass/partials/_node-page.scss */
+/* line 85, ../sass/partials/_node-page.scss */
 .kontakt-page div {
   margin-top: 3px;
 }
 
-/* line 90, ../sass/partials/_node-page.scss */
+/* line 92, ../sass/partials/_node-page.scss */
 button:hover {
   background-color: #34adce;
   border-color: #34adce;
   transition: 1s;
 }
 
-/* line 99, ../sass/partials/_node-page.scss */
+/* line 101, ../sass/partials/_node-page.scss */
 .node-ingress {
   width: 50%;
   display: table;
@@ -271,19 +273,19 @@ button:hover {
   text-transform: uppercase;
 }
 
-/* line 106, ../sass/partials/_node-page.scss */
+/* line 108, ../sass/partials/_node-page.scss */
 a, a.link {
   text-decoration: none;
   border-bottom: none;
 }
 
-/* line 111, ../sass/partials/_node-page.scss */
+/* line 113, ../sass/partials/_node-page.scss */
 a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   text-decoration: none;
   border-bottom-style: none;
 }
 
-/* line 118, ../sass/partials/_node-page.scss */
+/* line 120, ../sass/partials/_node-page.scss */
 .top.glyphicon {
   position: fixed;
   color: #00c7fc;
@@ -295,37 +297,37 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
 }
 
 @media screen and (min-height: 600px) {
-  /* line 131, ../sass/partials/_node-page.scss */
+  /* line 133, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 500px;
   }
 }
 @media screen and (min-height: 700px) {
-  /* line 139, ../sass/partials/_node-page.scss */
+  /* line 141, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (max-height: 700px) and (max-width: 360px) {
-  /* line 145, ../sass/partials/_node-page.scss */
+  /* line 147, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (min-height: 900px) {
-  /* line 151, ../sass/partials/_node-page.scss */
+  /* line 153, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 800px;
   }
 }
 @media screen and (min-height: 1070px) {
-  /* line 158, ../sass/partials/_node-page.scss */
+  /* line 160, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1000px;
   }
 }
 @media screen and (min-height: 1100px) {
-  /* line 163, ../sass/partials/_node-page.scss */
+  /* line 165, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1050px;
   }
