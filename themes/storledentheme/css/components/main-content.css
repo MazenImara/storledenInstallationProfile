@@ -14,7 +14,7 @@
 
 @media all and (min-width: 851px) {
   .main-content {
-    float: left; /* LTR */
+    /*float: left; /* LTR */
     position: relative;
   }
   [dir="rtl"] .main-content {
