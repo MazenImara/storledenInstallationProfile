@@ -26,6 +26,13 @@
   font-size: 18px;
 }
 
+/* line 28, ../sass/partials/_global-for-module.scss */
+.title_arrow {
+  display: block  !important;
+  margin: 5px auto !important;
+  width: 50px !important;
+}
+
 /* line 1, ../sass/partials/_latest-projects.scss */
 .projects {
   padding: 25px;
@@ -469,6 +476,7 @@
 #ourproducts hr {
   width: 300px;
   margin-top: 0px;
+  margin-bottom: 0px;
   border-top: solid #0cf;
 }
 /* line 15, ../sass/partials/_our-products-slider.scss */
@@ -660,6 +668,7 @@
 /* line 117, ../sass/partials/_allprojects.scss */
 .projects-title hr {
   margin-top: 0px;
+  margin-bottom: 0px;
   border-top: solid #0cf;
 }
 
