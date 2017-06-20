@@ -303,7 +303,7 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
   display: inline-block !important;
   margin: 0px auto !important;
   width: 50px !important;
-  margin-top: -20px !important;
+  margin-top: -18px !important;
 }
 
 /* line 139, ../sass/partials/_node-page.scss */
