@@ -18,7 +18,8 @@ function storleden_module_theme($existing, $type, $theme, $path) {
 	    					),
 	    'products_angular' => array(
 	    						'variables' => array(
-	    										  'nodes' => 'nodes'
+	    										  'nodes' => 'nodes',
+	    										  'cats' => 'defalt'
 	    										)
 	    					),
 	    'screen_image_text' => array(

@@ -679,12 +679,12 @@
 }
 
 @media (max-width: 600px) {
-  /* line 131, ../sass/partials/_allprojects.scss */
+  /* line 132, ../sass/partials/_allprojects.scss */
   .small {
     display: table;
   }
 
-  /* line 134, ../sass/partials/_allprojects.scss */
+  /* line 135, ../sass/partials/_allprojects.scss */
   .big {
     display: none;
   }

@@ -25,6 +25,7 @@ class allProjectsAngularFilter extends BlockBase {
     return array(
             '#theme' => 'products_angular',            
             '#nodes' => $nodes,
+            '#cats' => allProjectsAngularFilter::cats($nodes),
             '#attached' => array(
         'library' => array(
           'storleden_module/storleden_lib',
@@ -61,13 +62,26 @@ class allProjectsAngularFilter extends BlockBase {
           'img' => file_create_url($node->field_image->entity->getFileUri()),
           'cat' => $node->field_category->value,        
           ]
-        ) ;
+        ) ;  
 
     }
-
-
     # ---------------------
     return $nodesArray ;
+  }
 
+  private function cats($nodes)
+  {
+    $cats = [];
+    foreach ($nodes as $node) {
+      if (in_array($node['cat'], $cats))
+        {
+        
+        }
+      else
+        {
+          array_push($cats,$node['cat']);
+        }       
+    }
+    return $cats;
   }
 }
