@@ -302,8 +302,8 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
 .title-arrow {
   display: inline-block !important;
   margin: 0px auto !important;
-  width: 50px !important;
-  margin-top: -18px !important;
+  width: 30px !important;
+  margin-top: -27px  !important;
 }
 
 /* line 139, ../sass/partials/_node-page.scss */
