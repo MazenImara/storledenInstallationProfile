@@ -49,11 +49,7 @@ function storleden_module_theme($existing, $type, $theme, $path) {
 	    					),
 	    'person' => array( //name of twig file
 	        'variables' => array( // key word
-	          'bild'      => 'Okänd profil bild' ,
-	          'namn'      => 'Okänt namn.'/*backup text*/,
-	          'yrke'      => 'Okänt yrke'      ,
-	          'telefon'   => 'Okänt telefon nummer'    ,
-	          'epost'     => 'Okänd epost'           ,
+	          'ingress'	=> 'hook ingress',
 	          'getPerson' => 'Okänt getPerson'  ,
 	        ),
 	      ),	    						    				

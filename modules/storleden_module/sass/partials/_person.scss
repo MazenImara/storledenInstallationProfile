@@ -2,6 +2,7 @@
 	display: table; 
 	margin: 0 auto;	
 	text-align: center;
+	width:100%;
 	.mh{
 		min-height: 308px;
 	}
@@ -47,7 +48,9 @@
 
 	.person-ingress{
 		text-align: center;
-		margin: 55px 0px 55px 0px;
+	    display: table;
+	    margin: 55px auto;
+	    max-width: 843px;
 	}
 
 	.over-img{

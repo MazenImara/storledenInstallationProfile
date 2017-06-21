@@ -8,7 +8,9 @@ namespace Drupal\storleden_module\Plugin\Block;
 use Drupal\Core\Block\BlockBase;
 use Drupal\node\Entity\Node;
 use Drupal\image\Entity\ImageStyle;
-
+use Drupal\Core\Form\FormInterface;
+ use Drupal\Core\Form\FormBuilderInterface; 
+ use Drupal\Core\Form\FormStateInterface;
 
 /**
  * Provides a 'person' Block.
@@ -28,9 +30,10 @@ class personBlock extends BlockBase {
    *
    **/
   public function build() {
-
+    $config = $this->getConfiguration();
     return array(
       '#theme'     => 'person',
+      '#ingress' => $config['form_ingress'],
       '#getPerson' => personBlock::getPerson(),
             '#attached' => array(
         'library' => array(
@@ -141,5 +144,36 @@ class personBlock extends BlockBase {
 
 
   } // end of: getPerson();
+
+
+     /**
+   * {@inheritdoc}
+   */
+  public function blockForm($form, FormStateInterface $form_state) {
+    $form = parent::blockForm($form, $form_state);
+
+    $config = $this->getConfiguration();
+
+    $form['form_ingress'] = array(
+      '#type' => 'textarea',
+      '#title' => $this->t('Ingress'),
+      '#description' => $this->t('Ingress for Team'),
+      '#default_value' => isset($config['form_ingress']) ? $config['form_ingress'] : 'Vi är en fullservice byrå inom media',
+    );
+    
+
+    return $form;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function blockSubmit($form, FormStateInterface $form_state) {
+    parent::blockSubmit($form, $form_state);
+    $values = $form_state->getValues();
+    $this->configuration['form_ingress'] = $values['form_ingress'];
+
+  }
+
 
 } // end of class personBlock;
