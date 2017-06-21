@@ -33,7 +33,7 @@ class personBlock extends BlockBase {
     $config = $this->getConfiguration();
     return array(
       '#theme'     => 'person',
-      '#ingress' => $config['form_ingress'],
+      '#ingress' => $config['form_ingress']['value'],
       '#getPerson' => personBlock::getPerson(),
             '#attached' => array(
         'library' => array(
@@ -155,7 +155,8 @@ class personBlock extends BlockBase {
     $config = $this->getConfiguration();
 
     $form['form_ingress'] = array(
-      '#type' => 'textarea',
+      '#type' => 'text_format',
+      '#format' => 'full_html',
       '#title' => $this->t('Ingress'),
       '#description' => $this->t('Ingress for Team'),
       '#default_value' => isset($config['form_ingress']) ? $config['form_ingress'] : 'Vi är en fullservice byrå inom media',
