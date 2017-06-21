@@ -575,9 +575,10 @@
 .allprojects .filterDiv.btn-group {
   display: table;
   margin: auto;
-  background-color: rgba(0, 195, 255, 0.22);
+  background-color: #00c3ff;
+  padding: 0px 10px;
 }
-/* line 25, ../sass/partials/_allprojects.scss */
+/* line 26, ../sass/partials/_allprojects.scss */
 .allprojects .mybtn.btn-default, .allprojects .label2.btn-default {
   padding: 6px 10px;
   margin: 10px 0px 10px 0px;
@@ -586,13 +587,13 @@
   background-color: #00c3ff;
   border-color: #00c3ff;
 }
-/* line 34, ../sass/partials/_allprojects.scss */
+/* line 35, ../sass/partials/_allprojects.scss */
 .allprojects .mybtn.btn-default:hover, .allprojects .mybtn.btn-default:focus, .allprojects .mybtn.btn-default:active, .allprojects .mybtn.btn-default.active, .allprojects .open > .mybtn.btn-default.dropdown-toggle {
   color: white;
   background-color: black;
   border-color: black;
 }
-/* line 40, ../sass/partials/_allprojects.scss */
+/* line 41, ../sass/partials/_allprojects.scss */
 .allprojects .label1.btn-default {
   padding: 6px 14px;
   margin: 10px 0px 10px 0px;
@@ -601,11 +602,11 @@
   background-color: black;
   border-color: black;
 }
-/* line 47, ../sass/partials/_allprojects.scss */
+/* line 48, ../sass/partials/_allprojects.scss */
 .allprojects .label1.btn-default span {
   margin-left: 4px;
 }
-/* line 51, ../sass/partials/_allprojects.scss */
+/* line 52, ../sass/partials/_allprojects.scss */
 .allprojects .label1.btn-default:hover, .allprojects .label1.btn-default:focus, .allprojects .label1.btn-default:active, .allprojects .label1.btn-default.active, .allprojects .open > .label1.btn-default.dropdown-toggle {
   padding: 6px 14px;
   margin: 10px 0px 10px 0px;
@@ -614,7 +615,7 @@
   background-color: black;
   border-color: black;
 }
-/* line 61, ../sass/partials/_allprojects.scss */
+/* line 62, ../sass/partials/_allprojects.scss */
 .allprojects .label2.btn-default:hover, .allprojects .label2.btn-default:focus, .allprojects .label2.btn-default:active, .allprojects .label2.btn-default.active, .allprojects .open > .label2.btn-default.dropdown-toggle {
   padding: 6px 10px;
   margin: 10px 0px 10px 0px;
@@ -623,17 +624,17 @@
   background-color: #00c3ff;
   border-color: #00c3ff;
 }
-/* line 70, ../sass/partials/_allprojects.scss */
+/* line 71, ../sass/partials/_allprojects.scss */
 .allprojects .label2 {
   height: 39px;
 }
-/* line 72, ../sass/partials/_allprojects.scss */
+/* line 73, ../sass/partials/_allprojects.scss */
 .allprojects .label2 span {
   font-size: 42.2px;
   margin: -9.2px 4px 0px -23px;
   color: black;
 }
-/* line 83, ../sass/partials/_allprojects.scss */
+/* line 84, ../sass/partials/_allprojects.scss */
 .allprojects .over {
   width: 250px;
   height: 250px;
@@ -645,33 +646,49 @@
   padding: 15px;
   display: none;
 }
-/* line 95, ../sass/partials/_allprojects.scss */
+/* line 96, ../sass/partials/_allprojects.scss */
 .allprojects .outer {
   display: table;
   margin: auto;
 }
-/* line 101, ../sass/partials/_allprojects.scss */
+/* line 102, ../sass/partials/_allprojects.scss */
 .allprojects .over-title {
   margin-top: 60px;
   font-weight: 900;
 }
-/* line 106, ../sass/partials/_allprojects.scss */
+/* line 107, ../sass/partials/_allprojects.scss */
 .allprojects .ingress {
   margin-top: 36px;
 }
 
-/* line 113, ../sass/partials/_allprojects.scss */
+/* line 114, ../sass/partials/_allprojects.scss */
 .projects-title {
   display: table;
   margin: auto;
 }
-/* line 117, ../sass/partials/_allprojects.scss */
+/* line 118, ../sass/partials/_allprojects.scss */
 .projects-title hr {
   margin-top: 0px;
   margin-bottom: 0px;
   border-top: solid #0cf;
 }
 
+/* line 126, ../sass/partials/_allprojects.scss */
+.small {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  /* line 131, ../sass/partials/_allprojects.scss */
+  .small {
+    display: table;
+  }
+
+  /* line 134, ../sass/partials/_allprojects.scss */
+  .big {
+    display: none;
+  }
+}
 /* line 3, ../sass/partials/_kontakt.scss */
 .kontakt .Kontaktuppgifter {
   margin-left: 14px;

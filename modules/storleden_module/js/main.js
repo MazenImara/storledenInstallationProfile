@@ -44,6 +44,13 @@ jQuery(document).ready(function($) {
         
     })
 
-
+    // for all projects file
+    $('.filter-btn').click(function () {
+        $('.small-btn').removeClass('hidden');
+    })
+    $('.small-btn').click(function () {
+        $('.small-btn').addClass('hidden');
+        $(this).removeClass('hidden');
+    })
     
 });

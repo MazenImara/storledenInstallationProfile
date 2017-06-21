@@ -19,7 +19,8 @@
 .filterDiv.btn-group{
     display: table;
     margin: auto;
-    background-color: rgba(0, 195, 255, 0.22);
+    background-color: rgb(0, 195, 255);
+        padding: 0px 10px;
 }
 
 .mybtn.btn-default, .label2.btn-default {
@@ -121,3 +122,16 @@
             border-top: solid #0cf;
         }        
     }
+
+.small{
+    //background-color:red;
+    display: none;
+}
+@media (max-width: 600px) {
+    .small{
+        display: table;
+    }
+    .big{
+        display: none;
+    }
+}
