@@ -27,7 +27,7 @@ class kontaktForTestBlock extends BlockBase {
     return array(
             '#theme' => 'kontakt_for_test',            
             '#form' => [ 'form' => $form, 
-                          'ingress' => $config['form_ingress']
+                          'ingress' => $config['form_ingress']['value']
                           ],
             '#attached' => array(
                   'library' => array(
@@ -47,10 +47,11 @@ class kontaktForTestBlock extends BlockBase {
     $config = $this->getConfiguration();
 
     $form['form_ingress'] = array(
-      '#type' => 'textarea',
-      '#title' => $this->t('Form ingress'),
-      '#description' => $this->t('Ingress for kontakt form'),
-      '#default_value' => isset($config['form_ingress']) ? $config['form_ingress'] : 'ÄR DU INTRESERAD AV ATT TESTA? ÖNSKAR DU MER INFORMATION? KONTAKTA OSS!',
+      '#type' => 'text_format',
+      '#format' => 'full_html',
+      '#title' => $this->t('Ingress'),
+      '#description' => $this->t('Ingress for Team'),
+      '#default_value' => $config['form_ingress']['value']
     );
     
 

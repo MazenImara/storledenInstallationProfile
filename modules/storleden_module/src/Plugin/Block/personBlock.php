@@ -159,7 +159,7 @@ class personBlock extends BlockBase {
       '#format' => 'full_html',
       '#title' => $this->t('Ingress'),
       '#description' => $this->t('Ingress for Team'),
-      '#default_value' => $config['form_ingress']['value']
+      '#default_value' => $config['form_ingress']['value'],
     );
     
 

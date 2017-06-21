@@ -7,6 +7,8 @@ use Drupal\Core\Block\BlockBase;
  use Drupal\Core\File\File;
  use Drupal\Core\Form\FormInterface;
 
+ 
+
 
 #use Drupal\Core\Entity\Query\QueryInterface
 /**
@@ -26,11 +28,13 @@ class kontaktBlock extends BlockBase {
    */
   public function build() {
     $form = \Drupal::formBuilder()->getForm('Drupal\storleden_module\Form\kontaktForm');
-
+    $config = $this->getConfiguration();
 
     return array(
             '#theme' => 'kontakt',            
-            '#form' => $form ,
+            '#form' => ['form' => $form,
+                         'ingress' => $config['form_ingress']['value'],
+            ],
             '#attached' => array(
         'library' => array(
           'storleden_module/storleden_lib',
@@ -40,5 +44,34 @@ class kontaktBlock extends BlockBase {
   }
 
  
+     /**
+   * {@inheritdoc}
+   */
+  public function blockForm($form, FormStateInterface $form_state) {
+    $form = parent::blockForm($form, $form_state);
+
+    $config = $this->getConfiguration();
+
+    $form['form_ingress'] = array(
+      '#type' => 'text_format',
+      '#format' => 'full_html',
+      '#title' => $this->t('Ingress'),
+      '#description' => $this->t('Ingress for Team'),
+      '#default_value' => $config['form_ingress']['value']
+    );
+    
+
+    return $form;
+  }
+
+  /**
+   * {@inheritdoc}
+   */
+  public function blockSubmit($form, FormStateInterface $form_state) {
+    parent::blockSubmit($form, $form_state);
+    $values = $form_state->getValues();
+    $this->configuration['form_ingress'] = $values['form_ingress'];
+
+  }
 
 }

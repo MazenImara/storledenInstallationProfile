@@ -2,42 +2,40 @@
 
 <div class="kontakt container storleden-module">
 	<div class="ingress">
-		<h6>Om ni vill veta mer om oss, boka ett möte eller ring oss för en partstund</h6>
-		<h6>info@storleden.se</h6>
-		<h6>0764-17 19 87</h6>
+		{{ form.ingress | raw }}
 	</div>
- 	<form {{form.attributes }} method="post">
-                    {{ form.form_build_id }}
-                    {{ form.form_token }}
-                    {{ form.form_id }}
-                    {{ form.subject }}
-                    {{ form.message }}
+ 	<form {{form.form.attributes }} method="post">
+                    {{ form.form.form.form_build_id }}
+                    {{ form.form.form.form_token }}
+                    {{ form.form.form.form_id }}
+                    {{ form.form.subject }}
+                    {{ form.form.message }}
 	<div class="row">
 		<h5 class="Kontaktuppgifter">Kontaktuppgifter</h5>
 		<div class="col-sm-6">
-			{{ form.name }}
+			{{ form.form.name }}
 		</div>
 		<div class="col-sm-6">
-			{{ form.company }}
+			{{ form.form.company }}
 		</div>
 	</div>
 	<div class="row">
 		<div class="col-sm-6">
-			{{ form.email }}
+			{{ form.form.email }}
 		</div>
 		<div class="col-sm-6">
-			{{ form.phone }}
+			{{ form.form.phone }}
 		</div>
 	</div>
 	<div class="checkboxes">
 		<h5>Vet du redan nu vad kan vi hjälpa dig med?</h5>
-		{{ form.check_boxes }}
+		{{ form.form.check_boxes }}
 	</div>
 	<div class="description">
-		{{ form.description }}
+		{{ form.form.description }}
 	</div>
 	<div class="submit-btn">
-		{{ form.actions }}
+		{{ form.form.actions }}
 	</div>
 	</form>
 </div>
