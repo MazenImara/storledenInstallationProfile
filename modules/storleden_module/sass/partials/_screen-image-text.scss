@@ -234,5 +234,34 @@ font-size: 4px;
     }
 }
 
-
-
+@media (max-height: 700px) and (max-width: 600px) {
+    .bs-slider img {
+        height: 500px
+    }
+    .slide-text > a.btn-primary{
+        display: table;
+        margin: 16px auto;
+        font-size: 10px;
+    line-height: 0px;
+    padding: 12px 12px;
+    }
+    .slide-text > h1{
+            font-size: 32px;
+    }
+    .slide-text > p{
+            font-size: 17px;
+            margin-bottom: 0px;
+            margin-top: 9px;
+    }
+    .slide-text {
+        width: 135%;
+        left: -64px;
+        top: 25%;
+        right: 0;
+        margin: auto;
+        padding: 10px;
+        position: absolute;
+        text-align: left;
+        padding: 10px 85px;
+    }
+}

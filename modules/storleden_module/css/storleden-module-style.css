@@ -344,6 +344,46 @@
     margin-left: 4px;
   }
 }
+@media (max-height: 700px) and (max-width: 600px) {
+  /* line 238, ../sass/partials/_screen-image-text.scss */
+  .bs-slider img {
+    height: 500px;
+  }
+
+  /* line 241, ../sass/partials/_screen-image-text.scss */
+  .slide-text > a.btn-primary {
+    display: table;
+    margin: 16px auto;
+    font-size: 10px;
+    line-height: 0px;
+    padding: 12px 12px;
+  }
+
+  /* line 248, ../sass/partials/_screen-image-text.scss */
+  .slide-text > h1 {
+    font-size: 32px;
+  }
+
+  /* line 251, ../sass/partials/_screen-image-text.scss */
+  .slide-text > p {
+    font-size: 17px;
+    margin-bottom: 0px;
+    margin-top: 9px;
+  }
+
+  /* line 256, ../sass/partials/_screen-image-text.scss */
+  .slide-text {
+    width: 135%;
+    left: -64px;
+    top: 25%;
+    right: 0;
+    margin: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: left;
+    padding: 10px 85px;
+  }
+}
 /* line 1, ../sass/partials/_tjanster.scss */
 .tjanster {
   margin-top: 50px;
