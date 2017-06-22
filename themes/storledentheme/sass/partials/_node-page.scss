@@ -139,6 +139,11 @@ a:hover, a:active, a:focus, .link:hover, .link:active, .link:focus {
 hr{
 	margin-bottom: 0px !important;
 }
+.not-effect{
+	.effect-title{
+		display: table !important;
+	}
+}
 
 @media screen and (min-height: 600px) {
   .top.glyphicon{

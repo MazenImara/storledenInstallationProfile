@@ -311,38 +311,43 @@ hr {
   margin-bottom: 0px !important;
 }
 
+/* line 143, ../sass/partials/_node-page.scss */
+.not-effect .effect-title {
+  display: table !important;
+}
+
 @media screen and (min-height: 600px) {
-  /* line 144, ../sass/partials/_node-page.scss */
+  /* line 149, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 500px;
   }
 }
 @media screen and (min-height: 700px) {
-  /* line 152, ../sass/partials/_node-page.scss */
+  /* line 157, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (max-height: 700px) and (max-width: 360px) {
-  /* line 158, ../sass/partials/_node-page.scss */
+  /* line 163, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 600px;
   }
 }
 @media screen and (min-height: 900px) {
-  /* line 164, ../sass/partials/_node-page.scss */
+  /* line 169, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 800px;
   }
 }
 @media screen and (min-height: 1070px) {
-  /* line 171, ../sass/partials/_node-page.scss */
+  /* line 176, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1000px;
   }
 }
 @media screen and (min-height: 1100px) {
-  /* line 176, ../sass/partials/_node-page.scss */
+  /* line 181, ../sass/partials/_node-page.scss */
   .top.glyphicon {
     margin-top: 1050px;
   }
