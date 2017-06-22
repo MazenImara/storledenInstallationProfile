@@ -19,14 +19,20 @@ settings:
   label: 'Screen Image Text Block'
   provider: storleden_module
   label_display: '0'
-  screen_text_title: STORLEDEN
+  screen_text_title:
+    value: "<h1 data-animation=\"animated flipInX\">STORLEDEN</h1>\r\n"
+    format: full_html
   screen_text: 'hello , word'
   photo: {  }
   link1: ''
   link2: 'Affärssystem , /nod/128'
-  link3: 'Avancerad webbplats, /nod/3'
-  link4: 'Applikationer, /nod/4'
+  link3: 'Avancerad webbplats, /nod/111'
+  link4: 'Applikationer, /nod/153'
   link5: ''
-  screen_text1: 'Innovativa produkter och tjänster'
-  screen_text2: 'Concept to realisation'
+  screen_text1:
+    value: "<p data-animation=\"animated lightSpeedIn\">Innovativa produkter och tjänster</p>\r\n"
+    format: full_html
+  screen_text2:
+    value: "<p data-animation=\"animated lightSpeedIn\">Concept to realisation</p>\r\n"
+    format: full_html
 visibility: {  }
