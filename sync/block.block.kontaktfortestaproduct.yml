@@ -20,7 +20,9 @@ settings:
   label: 'Kontakt for test a product'
   provider: storleden_module
   label_display: '0'
-  form_ingress: 'ÄR DU INTRESERAD AV ATT TESTA? ÖNSKAR DU MER INFORMATION? KONTAKTA OSS!'
+  form_ingress:
+    value: "<p>ÖNSKAR DU MER INFORMATION? KONTAKTA OSS!</p>\r\n"
+    format: full_html
 visibility:
   'entity_bundle:node':
     id: 'entity_bundle:node'

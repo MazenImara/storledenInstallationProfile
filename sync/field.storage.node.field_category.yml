@@ -23,17 +23,11 @@ settings:
       value: Webb
       label: Webb
     -
-      value: System
-      label: System
+      value: Affärssystem
+      label: Affärssystem
     -
-      value: Vidareutveckling
-      label: Vidareutveckling
-    -
-      value: Reklamfilm
-      label: Reklamfilm
-    -
-      value: 'Teknisk lösning'
-      label: 'Teknisk lösning'
+      value: Teknisklösning
+      label: Teknisklösning
   allowed_values_function: ''
 module: options
 locked: false
