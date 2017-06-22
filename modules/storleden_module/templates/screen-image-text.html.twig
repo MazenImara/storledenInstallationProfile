@@ -11,11 +11,15 @@
                     <div class="bs-slider-overlay"></div>
                     <!-- Slide Text Layer -->
                     <div class="slide-text slide_style_center">
-                        <h1 data-animation="animated flipInX">{{ node.screenTextTitle }}</h1>
-                        <p data-animation="animated lightSpeedIn">{{ node.screenText1 }}</p>
-                        <p data-animation="animated slideInLeft">{{ node.screenText2 }}</p>
-
-
+                    {#
+                        <h1 data-animation="animated flipInX">{{ node.screenTextTitle | raw }}</h1>
+                        <p data-animation="animated lightSpeedIn">{{ node.screenText1 | raw }}</p>
+                        <p data-animation="animated slideInLeft">{{ node.screenText2 | raw }}</p>
+                    #}
+                        {{ node.screenTextTitle | raw }}
+                        {{ node.screenText1 | raw }}
+                        {{ node.screenText2 | raw }}
+                    
                         {% set a = true %}
                         {% set b = true %}
 

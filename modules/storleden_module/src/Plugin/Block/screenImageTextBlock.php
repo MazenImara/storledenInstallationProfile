@@ -75,9 +75,9 @@ class screenImageTextBlock extends BlockBase {
     return array(
             '#theme' => 'screen_image_text',            
             '#node' => [
-                          'screenTextTitle' => $textTitle ,
-                          'screenText1' => $text ,
-                          'screenText2' => $text2 ,
+                          'screenTextTitle' => $config['screen_text_title']['value'] ,
+                          'screenText1' => $config['screen_text1']['value'] ,
+                          'screenText2' => $config['screen_text2']['value'] ,
                           'imgurl' => $imgurl ,
                           'links' => $this->links($config),
             ],
@@ -146,23 +146,26 @@ class screenImageTextBlock extends BlockBase {
     $config = $this->getConfiguration();
 
     $form['screen_text_title'] = array(
-      '#type' => 'textfield',
+      '#type' => 'text_format',
+      '#format' => 'full_html',
       '#title' => $this->t('Screen Text Title'),
-      '#description' => $this->t('First line as a title for the midile text '),
-      '#default_value' => isset($config['screen_text_title']) ? $config['screen_text_title'] : '',
+      '#description' => $this->t('effect work when you add &lt;h1 data-animation="animated flipInX"&gt;STORLEDEN&lt;/h1&gt; '),
+      '#default_value' => $config['screen_text_title']['value'],
     );
     $form['screen_text1'] = array(
-      '#type' => 'textfield',
+      '#type' => 'text_format',
+      '#format' => 'full_html',
       '#title' => $this->t('Screen Text 1'),
-      '#description' => $this->t('Type the text that you want in the midile'),
-      '#default_value' => isset($config['screen_text1']) ? $config['screen_text1'] : '',
+      '#description' => $this->t('effect work when you add &lt;p data-animation="animated lightSpeedIn"&gt;Innovativa produkter och tjänster&lt;/p&gt;'),
+      '#default_value' => $config['screen_text1']['value'],
     );
 
     $form['screen_text2'] = array(
-      '#type' => 'textfield',
+      '#type' => 'text_format',
+      '#format' => 'full_html',
       '#title' => $this->t('Screen Text 2'),
-      '#description' => $this->t('Type the text that you want in the midile'),
-      '#default_value' => isset($config['screen_text2']) ? $config['screen_text2'] : '',
+      '#description' => $this->t('effect work when you add &lt;p data-animation="animated slideInLeft"&gt;Concept to realisation&lt;/p&gt;'),
+      '#default_value' => $config['screen_text2']['value'],
     );
 
     // upload imag
