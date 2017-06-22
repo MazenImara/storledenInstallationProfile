@@ -410,10 +410,6 @@
 #textslider {
   color: white;
 }
-/* line 3, ../sass/partials/_text-slider.scss */
-#textslider .carousel-indicators {
-  left: 57%;
-}
 /* line 6, ../sass/partials/_text-slider.scss */
 #textslider .carousel-inner {
   height: 177px;
@@ -441,26 +437,47 @@
   width: 130px;
   margin-top: 17px;
 }
+/* line 32, ../sass/partials/_text-slider.scss */
+#textslider .else .item-text {
+  text-align: center;
+}
+/* line 35, ../sass/partials/_text-slider.scss */
+#textslider .else .col-sm-9 {
+  width: 100%;
+  text-align: center;
+}
 @media screen and (max-width: 777px) {
-  /* line 33, ../sass/partials/_text-slider.scss */
+  /* line 44, ../sass/partials/_text-slider.scss */
   #textslider .col-sm-3 {
     display: inline-block;
     margin-left: 1%;
   }
-  /* line 38, ../sass/partials/_text-slider.scss */
+  /* line 52, ../sass/partials/_text-slider.scss */
   #textslider .col-sm-9 {
     position: absolute;
     display: inline-block;
   }
 }
+@media screen and (max-width: 500px) {
+  /* line 62, ../sass/partials/_text-slider.scss */
+  #textslider h3 {
+    font-size: 14px;
+  }
+  /* line 65, ../sass/partials/_text-slider.scss */
+  #textslider .item-text {
+    font-size: 12px;
+  }
+}
 
-/* line 49, ../sass/partials/_text-slider.scss */
+/* line 71, ../sass/partials/_text-slider.scss */
 .item-text {
   text-align: left;
   text-justify: inter-word;
+  overflow: hidden;
+  height: 43px;
 }
 
-/* line 55, ../sass/partials/_text-slider.scss */
+/* line 79, ../sass/partials/_text-slider.scss */
 .inner {
   width: 667px;
   display: table;

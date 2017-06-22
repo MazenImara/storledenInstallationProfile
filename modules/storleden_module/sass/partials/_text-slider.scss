@@ -1,7 +1,7 @@
 #textslider {
 	color:white;
 	.carousel-indicators {
-    left: 57%;
+    //left: 57%;
 	}
 	.carousel-inner{
 		height: 177px; 
@@ -27,10 +27,24 @@
     	width: 130px;
     	margin-top: 17px;
 	}
+	.else{
+
+		.item-text{
+			text-align: center;
+		}
+		.col-sm-9{
+			width: 100%;
+			text-align: center;
+		}
+
+	}
 	@media screen and (max-width: 777px) {
 
 		
 			.col-sm-3 {
+				img{
+					//display: none;
+				}
 				        display: inline-block;
 				        margin-left: 1%;
 
@@ -44,12 +58,22 @@
 			
 		
 	}
+	@media screen and (max-width: 500px) {
+		h3{
+			font-size: 14px;
+		}
+		.item-text{
+			font-size: 12px;
+		}
+	}
 } //end of .slider
 
 .item-text{
 	
 	text-align: left;
-	text-justify: inter-word; 
+	text-justify: inter-word;
+	overflow: hidden;
+    height: 43px; 
 }
 
 .inner{
