@@ -190,10 +190,6 @@ p {
   text-align: center;
 }
 
-/* line 22, ../sass/partials/_node-page.scss */
-.node__content {
-  padding: 0% 5% 0% 5%;
-}
 /* line 24, ../sass/partials/_node-page.scss */
 .node__content .field--name-field-ingress {
   display: table;
