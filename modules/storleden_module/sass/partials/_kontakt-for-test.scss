@@ -30,7 +30,9 @@
 	input  , input:focus{		
 		border:none;
 		border-bottom: 1px solid #ccc;
-		margin-right: 10%;
+		//margin-right: 10%;
 		outline: none;
+		display: table;
+    	margin: auto;
 	}	
 }

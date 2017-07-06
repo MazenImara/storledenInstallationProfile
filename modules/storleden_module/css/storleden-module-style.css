@@ -610,8 +610,9 @@
 .kontakt-for-test input, .kontakt-for-test input:focus {
   border: none;
   border-bottom: 1px solid #ccc;
-  margin-right: 10%;
   outline: none;
+  display: table;
+  margin: auto;
 }
 
 /* line 3, ../sass/partials/_allprojects.scss */
