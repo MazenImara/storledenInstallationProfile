@@ -153,8 +153,7 @@ Beskrivning: {$description}";// Don't change the structure of this string, unles
 		$mailManager = \Drupal::service('plugin.manager.mail');
 		$module      = 'storleden_module';
 		$key         = 'kontakt';// Replace with Your key
-		$to          = 'mazen.imara@gmail.com';
-		//$to                = \Drupal::config('system.site')->get('mail');
+		$to                = \Drupal::config('system.site')->get('mail');
 		$params['message'] = $message;
 		$params['from']    = $form_state->getValue('email');
 		$params['title']   = $subject;
