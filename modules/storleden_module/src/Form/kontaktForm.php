@@ -150,9 +150,9 @@ Telefon: {$phone}
 Kategorier: {$checked_boxes}
 Beskrivning: {$description}";// Don't change the structure of this string, unless you want tot change the message.
 
-		$mailManager = \Drupal::service('plugin.manager.mail');
-		$module      = 'storleden_module';
-		$key         = 'kontakt';// Replace with Your key
+		$mailManager       = \Drupal::service('plugin.manager.mail');
+		$module            = 'storleden_module';
+		$key               = 'kontakt';// Replace with Your key
 		$to                = \Drupal::config('system.site')->get('mail');
 		$params['message'] = $message;
 		$params['from']    = $form_state->getValue('email');
@@ -168,7 +168,7 @@ Beskrivning: {$description}";// Don't change the structure of this string, unles
 			return;
 		}
 
-		$message = t('An email notification has been sent to @email ', array('@email' => $to));
+		$message = t('Tack! Ditt meddelande har skickats.', array('@email' => $to));
 		drupal_set_message($message);
 		\Drupal::logger('mail-log')->notice($message);
 

@@ -94,7 +94,7 @@ Telefon: {$phone}";// Don't change the structure of this string, unless you want
 			return;
 		}
 
-		$message = t('An email notification has been sent to @email ', array('@email' => $to));
+		$message = t('Tack! Ditt meddelande har skickats. ', array('@email' => $to));
 		drupal_set_message($message);
 		\Drupal::logger('mail-log')->notice($message);
 
