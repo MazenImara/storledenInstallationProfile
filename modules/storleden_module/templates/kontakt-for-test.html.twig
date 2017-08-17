@@ -1,10 +1,10 @@
 
 <div class="kontakt-for-test container storleden-module">
 	<h6>{{ form.ingress | raw }}</h6>
- 	<form.form {{form.form.attributes }} method="post">
-                    {{ form.form.form.form.form.form_build_id }}
-                    {{ form.form.form.form_token }}
-                    {{ form.form.form.form_id }}
+ 	<form {{form.form.attributes }} method="post">
+                    {{ form.form.form_build_id }}
+                    {{ form.form.form_token }}
+                    {{ form.form.form_id }}
                     {{ form.form.subject }}
                     {{ form.form.message }}
 	<div class="row">
@@ -26,6 +26,7 @@
 	<div class="submit-btn">
 		{{ form.form.actions }}
 	</div>
-	</form.form>
+	</form>
 </div>
+
 

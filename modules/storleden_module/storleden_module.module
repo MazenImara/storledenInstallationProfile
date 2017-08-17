@@ -73,3 +73,21 @@ function storleden_module_theme($existing, $type, $theme, $path) {
 function storleden_module_template_preprocess_default_variables_alter(&$variables) {
   $variables['title_arrow'] ='/' . drupal_get_path('module', 'storleden_module') . '/images/icon/heading-arrow.png';
 }
+use Drupal\Core\Mail\MailManagerInterface;
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\Component\Utility\Html;
+/**
+ * Implements hook_mail().
+ */
+function storleden_module_mail($key, &$message, $params) {
+  $options = array(
+    'langcode' => $message['langcode'],
+  );
+  switch ($key) {
+    case 'kontakt':
+      $message['from'] = $params['from'];
+      $message['subject'] = t('@title', array('@title' => $params['title']), $options);
+      $message['body'][] = $params['message'];
+      break;
+  }
+}
